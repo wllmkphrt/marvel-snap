@@ -478,60 +478,60 @@
             "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/hobgoblin.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Hulk",
+            "cost":"6",
+            "power":"12",
+            "effect":"none",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/hulk.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Hulk Buster",
+            "cost":"3",
+            "power":"4",
+            "effect":"On Reveal: Merge this card with a random friendly card at this location.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/hulk-buster.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Human Torch",
+            "cost":"1",
+            "power":"2",
+            "effect":"When this moves, double its Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/human-torch.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Iceman",
+            "cost":"1",
+            "power":"2",
+            "effect":"On Reveal: Give a random card in your opponent's hand +1 Cost. (maximum 6)",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/iceman.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Invisible Woman",
+            "cost":"2",
+            "power":"2",
+            "effect":"Ongoing: Cards you play here are not revealed until the game ends.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/invisible-woman.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Iron Fist",
+            "cost":"1",
+            "power":"2",
+            "effect":"On Reveal: Move the next card you play one location to the left after it reveals.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/iron-fist.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Iron Man",
+            "cost":"5",
+            "power":"0",
+            "effect":"Ongoing: your total Power is doubled at this location.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/iron-man.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Ironheart",
+            "cost":"3",
+            "power":"0",
+            "effect":"On Reveal: Give 3 other friendly cards +2 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ironheart.webp?v=20"
         },
         {
             "name":"",
