@@ -22,7 +22,7 @@ html {
     flex-direction: column;
     border: 1px solid #333;
     background: rgba(236, 234, 239, 0.3);
-    padding: 15px 20px 18px 18px;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
     box-shadow: 2px 5px 5px #333;
   }
