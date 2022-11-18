@@ -1,7 +1,7 @@
 {
   "cards": [
     {
-	    "id":1,
+      "id": 1,
       "name": "Abomination",
       "cost": 5,
       "power": 9,
@@ -9,7 +9,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/abomination.webp?v=20"
     },
     {
-	    "id":2,
+      "id": 2,
       "name": "Adam Warlock",
       "cost": 2,
       "power": 0,
@@ -17,7 +17,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/adam-warlock.webp?v=20"
     },
     {
-	    "id":3,
+      "id": 3,
       "name": "Aero",
       "cost": 5,
       "power": 9,
@@ -25,7 +25,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/aero.webp?v=20"
     },
     {
-	    "id":4,
+      "id": 4,
       "name": "Agatha Harkness",
       "cost": 6,
       "power": 14,
@@ -33,7 +33,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/agatha-harkness.webp?v=20"
     },
     {
-	    "id":5,
+      "id": 5,
       "name": "Agent 13",
       "cost": 1,
       "power": 2,
@@ -41,7 +41,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/agent-13.webp?v=20"
     },
     {
-	    "id":6,
+      "id": 6,
       "name": "America Chavez",
       "cost": 6,
       "power": 9,
@@ -49,7 +49,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/america-chavez.webp?v=20"
     },
     {
-	    "id":7,
+      "id": 7,
       "name": "Angel",
       "cost": 1,
       "power": 2,
@@ -57,7 +57,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/angel.webp?v=20"
     },
     {
-	    "id":8,
+      "id": 8,
       "name": "Angela",
       "cost": 2,
       "power": 1,
@@ -65,7 +65,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/angela.webp?v=20"
     },
     {
-	    "id":9,
+      "id": 9,
       "name": "Ant-Man",
       "cost": 1,
       "power": 1,
@@ -73,7 +73,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ant-man.webp?v=20"
     },
     {
-	    "id":10,
+      "id": 10,
       "name": "Apocalypse",
       "cost": 6,
       "power": 8,
@@ -81,7 +81,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/apocalypse.webp?v=20"
     },
     {
-	    "id":11,
+      "id": 11,
       "name": "Armor",
       "cost": 2,
       "power": 3,
@@ -89,7 +89,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/armor.webp?v=20"
     },
     {
-	    "id":12,
+      "id": 12,
       "name": "Arnim Zola",
       "cost": 6,
       "power": 0,
@@ -97,7 +97,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/arnim-zola.webp?v=20"
     },
     {
-	    "id":13,
+      "id": 13,
       "name": "Baron Mordo",
       "cost": 2,
       "power": 3,
@@ -105,7 +105,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/baron-mordo.webp?v=20"
     },
     {
-	    "id":14,
+      "id": 14,
       "name": "Beast",
       "cost": 2,
       "power": 2,
@@ -113,7 +113,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/beast.webp?v=20"
     },
     {
-	    "id":15,
+      "id": 15,
       "name": "Bishop",
       "cost": 3,
       "power": 1,
@@ -121,7 +121,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/bishop.webp?v=20"
     },
     {
-	    "id":16,
+      "id": 16,
       "name": "Black Bolt",
       "cost": 5,
       "power": 8,
@@ -129,7 +129,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/black-bolt.webp?v=20"
     },
     {
-	    "id":17,
+      "id": 17,
       "name": "Black Cat",
       "cost": 3,
       "power": 6,
@@ -137,7 +137,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/black-cat.webp?v=20"
     },
     {
-	    "id":18,
+      "id": 18,
       "name": "Black Panther",
       "cost": 5,
       "power": 4,
@@ -145,7 +145,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/black-panther.webp?v=20"
     },
     {
-	    "id":19,
+      "id": 19,
       "name": "Black Widow",
       "cost": 2,
       "power": 1,
@@ -153,7 +153,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/black-widow.webp?v=20"
     },
     {
-	    "id":20,
+      "id": 20,
       "name": "Blade",
       "cost": 1,
       "power": 3,
@@ -161,7 +161,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/blade.webp?v=20"
     },
     {
-	    "id":21,
+      "id": 21,
       "name": "Blue Marvel",
       "cost": 5,
       "power": 3,
@@ -169,7 +169,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/blue-marvel.webp?v=20"
     },
     {
-	    "id":22,
+      "id": 22,
       "name": "Brood",
       "cost": 3,
       "power": 2,
@@ -177,7 +177,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/brood.webp?v=20"
     },
     {
-	    "id":23,
+      "id": 23,
       "name": "Bucky Barnes",
       "cost": 2,
       "power": 1,
@@ -185,7 +185,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/bucky-barnes.webp?v=20"
     },
     {
-	    "id":24,
+      "id": 24,
       "name": "Cable",
       "cost": 2,
       "power": 2,
@@ -193,7 +193,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/cable.webp?v=20"
     },
     {
-	    "id":25,
+      "id": 25,
       "name": "Captain America",
       "cost": 3,
       "power": 3,
@@ -201,7 +201,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/captain-america.webp?v=20"
     },
     {
-	    "id":26,
+      "id": 26,
       "name": "Captain Marvel",
       "cost": 5,
       "power": 6,
@@ -209,7 +209,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/captain-marvel.webp?v=20"
     },
     {
-	    "id":27,
+      "id": 27,
       "name": "Carnage",
       "cost": 2,
       "power": 2,
@@ -217,7 +217,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/carnage.webp?v=20"
     },
     {
-	    "id":28,
+      "id": 28,
       "name": "Cerebro",
       "cost": 3,
       "power": 0,
@@ -225,7 +225,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/cerebro.webp?v=20"
     },
     {
-	    "id":29,
+      "id": 29,
       "name": "Cloak",
       "cost": 2,
       "power": 4,
@@ -233,7 +233,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/cloak.webp?v=20"
     },
     {
-	    "id":30,
+      "id": 30,
       "name": "Colleen Wing",
       "cost": 2,
       "power": 4,
@@ -241,7 +241,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/colleen-wing.webp?v=20"
     },
     {
-	    "id":31,
+      "id": 31,
       "name": "Colossus",
       "cost": 2,
       "power": 3,
@@ -249,7 +249,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/colossus.webp?v=20"
     },
     {
-	    "id":32,
+      "id": 32,
       "name": "Cosmo",
       "cost": 3,
       "power": 3,
@@ -257,7 +257,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/cosmo.webp?v=20"
     },
     {
-	    "id":33,
+      "id": 33,
       "name": "Crossbones",
       "cost": 4,
       "power": 8,
@@ -265,7 +265,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/crossbones.webp?v=20"
     },
     {
-	    "id":34,
+      "id": 34,
       "name": "Crystal",
       "cost": 4,
       "power": 4,
@@ -273,7 +273,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/crystal.webp?v=20"
     },
     {
-	    "id":35,
+      "id": 35,
       "name": "Cyclops",
       "cost": 3,
       "power": 4,
@@ -281,7 +281,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/cyclops.webp?v=20"
     },
     {
-	    "id":36,
+      "id": 36,
       "name": "Dagger",
       "cost": 2,
       "power": 1,
@@ -289,7 +289,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/dagger.webp?v=20"
     },
     {
-	    "id":37,
+      "id": 37,
       "name": "Daredevil",
       "cost": 2,
       "power": 2,
@@ -297,7 +297,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/daredevil.webp?v=20"
     },
     {
-	    "id":38,
+      "id": 38,
       "name": "Deadpool",
       "cost": 1,
       "power": 1,
@@ -305,7 +305,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/deadpool.webp?v=20"
     },
     {
-	    "id":39,
+      "id": 39,
       "name": "Death",
       "cost": 9,
       "power": 12,
@@ -313,7 +313,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/death.webp?v=20"
     },
     {
-	    "id":40,
+      "id": 40,
       "name": "Deathlok",
       "cost": 3,
       "power": 5,
@@ -321,7 +321,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/deathlok.webp?v=20"
     },
     {
-	    "id":41,
+      "id": 41,
       "name": "Debrii",
       "cost": 3,
       "power": 3,
@@ -329,7 +329,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/debrii.webp?v=20"
     },
     {
-	    "id":42,
+      "id": 42,
       "name": "Destroyer",
       "cost": 6,
       "power": 16,
@@ -337,7 +337,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/destroyer.webp?v=20"
     },
     {
-	    "id":43,
+      "id": 43,
       "name": "Devil Dinosaur",
       "cost": 5,
       "power": 3,
@@ -345,7 +345,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/devil-dinosaur.webp?v=20"
     },
     {
-	    "id":44,
+      "id": 44,
       "name": "Doctor Doom",
       "cost": 6,
       "power": 5,
@@ -353,7 +353,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/doctor-doom.webp?v=20"
     },
     {
-	    "id":45,
+      "id": 45,
       "name": "Doctor Octopus",
       "cost": 5,
       "power": 10,
@@ -361,7 +361,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/doctor-octopus.webp?v=20"
     },
     {
-	    "id":46,
+      "id": 46,
       "name": "Doctor Strange",
       "cost": 3,
       "power": 3,
@@ -369,7 +369,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/doctor-strange.webp?v=20"
     },
     {
-	    "id":47,
+      "id": 47,
       "name": "Domino",
       "cost": 2,
       "power": 3,
@@ -377,7 +377,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/domino.webp?v=20"
     },
     {
-	    "id":48,
+      "id": 48,
       "name": "Dracula",
       "cost": 4,
       "power": 0,
@@ -385,7 +385,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/dracula.webp?v=20"
     },
     {
-	    "id":49,
+      "id": 49,
       "name": "Drax",
       "cost": 4,
       "power": 4,
@@ -393,7 +393,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/drax.webp?v=20"
     },
     {
-	    "id":50,
+      "id": 50,
       "name": "Ebony Maw",
       "cost": 1,
       "power": 7,
@@ -401,7 +401,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ebony-maw.webp?v=20"
     },
     {
-	    "id":51,
+      "id": 51,
       "name": "Electro",
       "cost": 3,
       "power": 2,
@@ -409,7 +409,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/electro.webp?v=20"
     },
     {
-	    "id":52,
+      "id": 52,
       "name": "Elektra",
       "cost": 1,
       "power": 1,
@@ -417,7 +417,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/elektra.webp?v=20"
     },
     {
-	    "id":53,
+      "id": 53,
       "name": "Enchantress",
       "cost": 4,
       "power": 4,
@@ -425,7 +425,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/enchantress.webp?v=20"
     },
     {
-	    "id":54,
+      "id": 54,
       "name": "Falcon",
       "cost": 2,
       "power": 3,
@@ -433,7 +433,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/falcon.webp?v=20"
     },
     {
-	    "id":55,
+      "id": 55,
       "name": "Forge",
       "cost": 2,
       "power": 1,
@@ -441,7 +441,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/forge.webp?v=20"
     },
     {
-	    "id":56,
+      "id": 56,
       "name": "Gambit",
       "cost": 3,
       "power": 1,
@@ -449,7 +449,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/gambit.webp?v=20"
     },
     {
-	    "id":57,
+      "id": 57,
       "name": "Gamora",
       "cost": 5,
       "power": 7,
@@ -457,7 +457,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/gamora.webp?v=20"
     },
     {
-	    "id":58,
+      "id": 58,
       "name": "Ghost Rider",
       "cost": 4,
       "power": 3,
@@ -465,7 +465,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ghost-rider.webp?v=20"
     },
     {
-	    "id":59,
+      "id": 59,
       "name": "Giganto",
       "cost": 6,
       "power": 14,
@@ -473,7 +473,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/giganto.webp?v=20"
     },
     {
-	    "id":60,
+      "id": 60,
       "name": "Goose",
       "cost": 2,
       "power": 2,
@@ -481,7 +481,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/goose.webp?v=20"
     },
     {
-	    "id":61,
+      "id": 61,
       "name": "Green Goblin",
       "cost": 3,
       "power": -3,
@@ -489,7 +489,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/green-goblin.webp?v=20"
     },
     {
-	    "id":62,
+      "id": 62,
       "name": "Groot",
       "cost": 3,
       "power": 3,
@@ -497,7 +497,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/groot.webp?v=20"
     },
     {
-	    "id":63,
+      "id": 63,
       "name": "Hawkeye",
       "cost": 1,
       "power": 1,
@@ -505,7 +505,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/hawkeye.webp?v=20"
     },
     {
-	    "id":64,
+      "id": 64,
       "name": "Hazmat",
       "cost": 2,
       "power": 1,
@@ -513,7 +513,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/hazmat.webp?v=20"
     },
     {
-	    "id":65,
+      "id": 65,
       "name": "Heimdall",
       "cost": 6,
       "power": 8,
@@ -521,7 +521,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/heimdall.webp?v=20"
     },
     {
-	    "id":66,
+      "id": 66,
       "name": "Hela",
       "cost": 6,
       "power": 6,
@@ -529,7 +529,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/hela.webp?v=20"
     },
     {
-	    "id":67,
+      "id": 67,
       "name": "Hellcow",
       "cost": 4,
       "power": 6,
@@ -537,7 +537,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/hellcow.webp?v=20"
     },
     {
-	    "id":68,
+      "id": 68,
       "name": "Hobgoblin",
       "cost": 5,
       "power": -8,
@@ -545,7 +545,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/hobgoblin.webp?v=20"
     },
     {
-	    "id":69,
+      "id": 69,
       "name": "Hulk",
       "cost": 6,
       "power": 12,
@@ -553,7 +553,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/hulk.webp?v=20"
     },
     {
-	    "id":70,
+      "id": 70,
       "name": "Hulk Buster",
       "cost": 3,
       "power": 4,
@@ -561,7 +561,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/hulk-buster.webp?v=20"
     },
     {
-	    "id":71,
+      "id": 71,
       "name": "Human Torch",
       "cost": 1,
       "power": 2,
@@ -569,7 +569,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/human-torch.webp?v=20"
     },
     {
-	    "id":72,
+      "id": 72,
       "name": "Iceman",
       "cost": 1,
       "power": 2,
@@ -577,7 +577,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/iceman.webp?v=20"
     },
     {
-	    "id":73,
+      "id": 73,
       "name": "Invisible Woman",
       "cost": 2,
       "power": 2,
@@ -585,7 +585,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/invisible-woman.webp?v=20"
     },
     {
-	    "id":74,
+      "id": 74,
       "name": "Iron Fist",
       "cost": 1,
       "power": 2,
@@ -593,7 +593,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/iron-fist.webp?v=20"
     },
     {
-	    "id":75,
+      "id": 75,
       "name": "Iron Man",
       "cost": 5,
       "power": 0,
@@ -601,7 +601,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/iron-man.webp?v=20"
     },
     {
-	    "id":76,
+      "id": 76,
       "name": "Ironheart",
       "cost": 3,
       "power": 0,
@@ -609,7 +609,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ironheart.webp?v=20"
     },
     {
-	    "id":77,
+      "id": 77,
       "name": "Jane Foster The Mighty Thor",
       "cost": 5,
       "power": 8,
@@ -617,7 +617,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/jane-foster-mighty-thor.webp?v=20"
     },
     {
-	    "id":78,
+      "id": 78,
       "name": "Jessica Jones",
       "cost": 4,
       "power": 4,
@@ -625,7 +625,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/jessica-jones.webp?v=20"
     },
     {
-	    "id":79,
+      "id": 79,
       "name": "Jubilee",
       "cost": 4,
       "power": 1,
@@ -633,7 +633,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/jubilee.webp?v=20"
     },
     {
-	    "id":80,
+      "id": 80,
       "name": "Juggernaut",
       "cost": 3,
       "power": 3,
@@ -641,7 +641,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/juggernaut.webp?v=20"
     },
     {
-	    "id":81,
+      "id": 81,
       "name": "Ka-Zar",
       "cost": 4,
       "power": 4,
@@ -649,7 +649,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ka-zar.webp?v=20"
     },
     {
-	    "id":82,
+      "id": 82,
       "name": "Killmonger",
       "cost": 3,
       "power": 3,
@@ -657,7 +657,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/killmonger.webp?v=20"
     },
     {
-	    "id":83,
+      "id": 83,
       "name": "Kingpin",
       "cost": 3,
       "power": 4,
@@ -665,7 +665,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/kingpin.webp?v=20"
     },
     {
-	    "id":84,
+      "id": 84,
       "name": "Klaw",
       "cost": 5,
       "power": 4,
@@ -673,7 +673,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/klaw.webp?v=20"
     },
     {
-	    "id":85,
+      "id": 85,
       "name": "Korg",
       "cost": 1,
       "power": 2,
@@ -681,7 +681,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/korg.webp?v=20"
     },
     {
-	    "id":86,
+      "id": 86,
       "name": "Kraven",
       "cost": 2,
       "power": 2,
@@ -689,7 +689,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/kraven.webp?v=20"
     },
     {
-	    "id":87,
+      "id": 87,
       "name": "Lady Sif",
       "cost": 3,
       "power": 4,
@@ -697,7 +697,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/lady-sif.webp?v=20"
     },
     {
-	    "id":88,
+      "id": 88,
       "name": "Leader",
       "cost": 6,
       "power": 4,
@@ -705,7 +705,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/leader.webp?v=20"
     },
     {
-	    "id":89,
+      "id": 89,
       "name": "Leech",
       "cost": 5,
       "power": 3,
@@ -713,7 +713,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/leech.webp?v=20"
     },
     {
-	    "id":90,
+      "id": 90,
       "name": "Lizard",
       "cost": 2,
       "power": 5,
@@ -721,7 +721,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/lizard.webp?v=20"
     },
     {
-	    "id":91,
+      "id": 91,
       "name": "Lockjaw",
       "cost": 3,
       "power": 2,
@@ -729,7 +729,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/lockjaw.webp?v=20"
     },
     {
-	    "id":92,
+      "id": 92,
       "name": "Magik",
       "cost": 5,
       "power": 3,
@@ -737,7 +737,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/magik.webp?v=20"
     },
     {
-	    "id":93,
+      "id": 93,
       "name": "Magneto",
       "cost": 6,
       "power": 12,
@@ -745,7 +745,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/magneto.webp?v=20"
     },
     {
-	    "id":94,
+      "id": 94,
       "name": "Mantis",
       "cost": 1,
       "power": 2,
@@ -753,7 +753,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mantis.webp?v=20"
     },
     {
-	    "id":95,
+      "id": 95,
       "name": "Maximus",
       "cost": 3,
       "power": 7,
@@ -761,7 +761,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/maximus.webp?v=20"
     },
     {
-	    "id":96,
+      "id": 96,
       "name": "Medusa",
       "cost": 2,
       "power": 2,
@@ -769,7 +769,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/medusa.webp?v=20"
     },
     {
-	    "id":97,
+      "id": 97,
       "name": "Miles Morales: Spider-Man",
       "cost": 4,
       "power": 5,
@@ -777,7 +777,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/miles-morales.webp?v=20"
     },
     {
-	    "id":98,
+      "id": 98,
       "name": "Mister Fantastic",
       "cost": 3,
       "power": 2,
@@ -785,7 +785,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mister-fantastic.webp?v=20"
     },
     {
-	    "id":99,
+      "id": 99,
       "name": "Mister Negative",
       "cost": 4,
       "power": -1,
@@ -793,7 +793,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mister-negative.webp?v=20"
     },
     {
-	    "id":100,
+      "id": 100,
       "name": "Mister Sinister",
       "cost": 2,
       "power": 2,
@@ -801,7 +801,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mister-sinister.webp?v=20"
     },
     {
-	    "id":101,
+      "id": 101,
       "name": "Misty Knight",
       "cost": 1,
       "power": 2,
@@ -809,7 +809,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/misty-knight.webp?v=20"
     },
     {
-	    "id":102,
+      "id": 102,
       "name": "Mojo",
       "cost": 2,
       "power": 2,
@@ -817,7 +817,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mojo.webp?v=20"
     },
     {
-	    "id":103,
+      "id": 103,
       "name": "Moon Girl",
       "cost": 4,
       "power": 4,
@@ -825,7 +825,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/moon-girl.webp?v=20"
     },
     {
-	    "id":104,
+      "id": 104,
       "name": "Moon Knight",
       "cost": 3,
       "power": 3,
@@ -833,7 +833,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/moon-knight.webp?v=20"
     },
     {
-	    "id":105,
+      "id": 105,
       "name": "Morbius",
       "cost": 2,
       "power": 0,
@@ -841,7 +841,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/morbius.webp?v=20"
     },
     {
-	    "id":106,
+      "id": 106,
       "name": "Morph",
       "cost": 3,
       "power": 0,
@@ -849,7 +849,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/morph.webp?v=20"
     },
     {
-	    "id":107,
+      "id": 107,
       "name": "Multiple Man",
       "cost": 2,
       "power": 3,
@@ -857,7 +857,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/multiple-man.webp?v=20"
     },
     {
-	    "id":108,
+      "id": 108,
       "name": "Mysterio",
       "cost": 2,
       "power": 5,
@@ -865,7 +865,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mysterio.webp?v=20"
     },
     {
-	    "id":109,
+      "id": 109,
       "name": "Mystique",
       "cost": 3,
       "power": 0,
@@ -873,7 +873,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mystique.webp?v=20"
     },
     {
-	    "id":110,
+      "id": 110,
       "name": "Nakia",
       "cost": 3,
       "power": 1,
@@ -881,7 +881,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/nakia.webp?v=20"
     },
     {
-	    "id":111,
+      "id": 111,
       "name": "Namor",
       "cost": 4,
       "power": 5,
@@ -889,7 +889,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/namor.webp?v=20"
     },
     {
-	    "id":112,
+      "id": 112,
       "name": "Nick Fury",
       "cost": 5,
       "power": 7,
@@ -897,7 +897,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/nick-fury.webp?v=20"
     },
     {
-	    "id":113,
+      "id": 113,
       "name": "Nightcrawler",
       "cost": 1,
       "power": 2,
@@ -905,7 +905,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/nightcrawler.webp?v=20"
     },
     {
-	    "id":114,
+      "id": 114,
       "name": "Nova",
       "cost": 1,
       "power": 2,
@@ -913,7 +913,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/nova.webp?v=20"
     },
     {
-	    "id":115,
+      "id": 115,
       "name": "Odin",
       "cost": 6,
       "power": 8,
@@ -921,7 +921,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/odin.webp?v=20"
     },
     {
-	    "id":116,
+      "id": 116,
       "name": "Okoye",
       "cost": 2,
       "power": 2,
@@ -929,7 +929,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/okoye.webp?v=20"
     },
     {
-	    "id":117,
+      "id": 117,
       "name": "Omega Red",
       "cost": 4,
       "power": 5,
@@ -937,7 +937,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/omega-red.webp?v=20"
     },
     {
-	    "id":118,
+      "id": 118,
       "name": "Onslaught",
       "cost": 6,
       "power": 7,
@@ -945,7 +945,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/onslaught.webp?v=20"
     },
     {
-	    "id":119,
+      "id": 119,
       "name": "Patriot",
       "cost": 3,
       "power": 1,
@@ -953,7 +953,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/patriot.webp?v=20"
     },
     {
-	    "id":120,
+      "id": 120,
       "name": "Polaris",
       "cost": 3,
       "power": 5,
@@ -961,7 +961,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/polaris.webp?v=20"
     },
     {
-	    "id":121,
+      "id": 121,
       "name": "Professor X",
       "cost": 5,
       "power": 3,
@@ -969,7 +969,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/professor-x.webp?v=20"
     },
     {
-	    "id":122,
+      "id": 122,
       "name": "Psylocke",
       "cost": 2,
       "power": 1,
@@ -977,7 +977,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/psylocke.webp?v=20"
     },
     {
-	    "id":123,
+      "id": 123,
       "name": "Punisher",
       "cost": 3,
       "power": 2,
@@ -985,7 +985,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/punisher.webp?v=20"
     },
     {
-	    "id":124,
+      "id": 124,
       "name": "Quake",
       "cost": 2,
       "power": 3,
@@ -993,7 +993,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/quake.webp?v=20"
     },
     {
-	    "id":125,
+      "id": 125,
       "name": "Quicksilver",
       "cost": 1,
       "power": 2,
@@ -1001,7 +1001,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/quicksilver.webp?v=20"
     },
     {
-	    "id":126,
+      "id": 126,
       "name": "Quinjet",
       "cost": 1,
       "power": 2,
@@ -1009,7 +1009,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/quinjet.webp?v=20"
     },
     {
-	    "id":127,
+      "id": 127,
       "name": "Red Skull",
       "cost": 5,
       "power": 15,
@@ -1017,7 +1017,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/red-skull.webp?v=20"
     },
     {
-	    "id":128,
+      "id": 128,
       "name": "Rescue",
       "cost": 4,
       "power": 4,
@@ -1025,7 +1025,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/rescue.webp?v=20"
     },
     {
-	    "id":129,
+      "id": 129,
       "name": "Rhino",
       "cost": 3,
       "power": 3,
@@ -1033,7 +1033,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/rhino.webp?v=20"
     },
     {
-	    "id":130,
+      "id": 130,
       "name": "Rocket Raccoon",
       "cost": 1,
       "power": 2,
@@ -1041,7 +1041,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/rocket-raccoon.webp?v=20"
     },
     {
-	    "id":131,
+      "id": 131,
       "name": "Rock Slide",
       "cost": 4,
       "power": 6,
@@ -1049,7 +1049,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/rockslide.webp?v=20"
     },
     {
-	    "id":132,
+      "id": 132,
       "name": "Rogue",
       "cost": 3,
       "power": 1,
@@ -1057,7 +1057,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/rogue.webp?v=20"
     },
     {
-	    "id":133,
+      "id": 133,
       "name": "Ronan The Accuser",
       "cost": 5,
       "power": 3,
@@ -1065,7 +1065,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ronan-the-accuser.webp?v=20"
     },
     {
-	    "id":134,
+      "id": 134,
       "name": "Sabretooth",
       "cost": 3,
       "power": 4,
@@ -1073,7 +1073,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/sabretooth.webp?v=20"
     },
     {
-	    "id":135,
+      "id": 135,
       "name": "Sandman",
       "cost": 4,
       "power": 1,
@@ -1081,7 +1081,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/sandman.webp?v=20"
     },
     {
-	    "id":136,
+      "id": 136,
       "name": "Scarlet Witch",
       "cost": 2,
       "power": 3,
@@ -1089,7 +1089,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/scarlet-witch.webp?v=20"
     },
     {
-	    "id":137,
+      "id": 137,
       "name": "Scorpion",
       "cost": 2,
       "power": 2,
@@ -1097,7 +1097,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/scorpion.webp?v=20"
     },
     {
-	    "id":138,
+      "id": 138,
       "name": "Sentinel",
       "cost": 2,
       "power": 3,
@@ -1105,7 +1105,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/sentinel.webp?v=20"
     },
     {
-	    "id":139,
+      "id": 139,
       "name": "Sera",
       "cost": 5,
       "power": 5,
@@ -1113,7 +1113,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/sera.webp?v=20"
     },
     {
-	    "id":140,
+      "id": 140,
       "name": "Shang-Chi",
       "cost": 4,
       "power": 3,
@@ -1121,7 +1121,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/shang-chi.webp?v=20"
     },
     {
-	    "id":141,
+      "id": 141,
       "name": "Shocker",
       "cost": 2,
       "power": 3,
@@ -1129,7 +1129,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/shocker.webp?v=20"
     },
     {
-	    "id":142,
+      "id": 142,
       "name": "Spectrum",
       "cost": 6,
       "power": 5,
@@ -1137,7 +1137,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/spectrum.webp?v=20"
     },
     {
-	    "id":143,
+      "id": 143,
       "name": "Spider-Man",
       "cost": 4,
       "power": 3,
@@ -1145,7 +1145,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/spider-man.webp?v=20"
     },
     {
-	    "id":144,
+      "id": 144,
       "name": "Spider-Woman",
       "cost": 5,
       "power": 7,
@@ -1153,7 +1153,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/spider-woman.webp?v=20"
     },
     {
-	    "id":145,
+      "id": 145,
       "name": "Squirrel Girl",
       "cost": 1,
       "power": 1,
@@ -1161,7 +1161,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/squirrel-girl.webp?v=20"
     },
     {
-	    "id":146,
+      "id": 146,
       "name": "Star-Lord",
       "cost": 2,
       "power": 2,
@@ -1169,7 +1169,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/star-lord.webp?v=20"
     },
     {
-	    "id":147,
+      "id": 147,
       "name": "Storm",
       "cost": 3,
       "power": 2,
@@ -1177,7 +1177,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/storm.webp?v=20"
     },
     {
-	    "id":148,
+      "id": 148,
       "name": "Strong Guy",
       "cost": 4,
       "power": 4,
@@ -1185,7 +1185,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/strong-guy.webp?v=20"
     },
     {
-	    "id":149,
+      "id": 149,
       "name": "Sunspot",
       "cost": 1,
       "power": 1,
@@ -1193,7 +1193,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/sunspot.webp?v=20"
     },
     {
-	    "id":150,
+      "id": 150,
       "name": "Swarm",
       "cost": 2,
       "power": 3,
@@ -1201,7 +1201,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/swarm.webp?v=20"
     },
     {
-	    "id":151,
+      "id": 151,
       "name": "Sword Master",
       "cost": 3,
       "power": 6,
@@ -1209,7 +1209,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/sword-master.webp?v=20"
     },
     {
-	    "id":152,
+      "id": 152,
       "name": "Taskmaster",
       "cost": 5,
       "power": 0,
@@ -1217,7 +1217,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/taskmaster.webp?v=20"
     },
     {
-	    "id":153,
+      "id": 153,
       "name": "The Collector",
       "cost": 2,
       "power": 1,
@@ -1225,7 +1225,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/the-collector.webp?v=20"
     },
     {
-	    "id":154,
+      "id": 154,
       "name": "The Hood",
       "cost": 1,
       "power": -2,
@@ -1233,7 +1233,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/the-hood.webp?v=20"
     },
     {
-	    "id":155,
+      "id": 155,
       "name": "The Infinaut",
       "cost": 6,
       "power": 20,
@@ -1241,7 +1241,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/the-infinaut.webp?v=20"
     },
     {
-	    "id":156,
+      "id": 156,
       "name": "The Thing",
       "cost": 4,
       "power": 6,
@@ -1249,7 +1249,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/the-thing.webp?v=20"
     },
     {
-	    "id":157,
+      "id": 157,
       "name": "Thor",
       "cost": 3,
       "power": 4,
@@ -1257,7 +1257,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/thor.webp?v=20"
     },
     {
-	    "id":158,
+      "id": 158,
       "name": "Typhoid Mary",
       "cost": 4,
       "power": 10,
@@ -1265,7 +1265,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/typhoid-mary.webp?v=20"
     },
     {
-	    "id":159,
+      "id": 159,
       "name": "Uatu The Watcher",
       "cost": 1,
       "power": 2,
@@ -1273,7 +1273,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/uatu-the-watcher.webp?v=20"
     },
     {
-	    "id":160,
+      "id": 160,
       "name": "Ultron",
       "cost": 6,
       "power": 8,
@@ -1281,7 +1281,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ultron.webp?v=20"
     },
     {
-	    "id":161,
+      "id": 161,
       "name": "Venom",
       "cost": 3,
       "power": 1,
@@ -1289,7 +1289,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/venom.webp?v=20"
     },
     {
-	    "id":162,
+      "id": 162,
       "name": "Viper",
       "cost": 2,
       "power": 3,
@@ -1297,7 +1297,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/viper.webp?v=20"
     },
     {
-	    "id":163,
+      "id": 163,
       "name": "Vision",
       "cost": 5,
       "power": 7,
@@ -1305,7 +1305,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/vision.webp?v=20"
     },
     {
-	    "id":164,
+      "id": 164,
       "name": "Vulture",
       "cost": 3,
       "power": 3,
@@ -1313,7 +1313,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/vulture.webp?v=20"
     },
     {
-	    "id":165,
+      "id": 165,
       "name": "Warpath",
       "cost": 4,
       "power": 5,
@@ -1321,7 +1321,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/warpath.webp?v=20"
     },
     {
-	    "id":166,
+      "id": 166,
       "name": "Wasp",
       "cost": 0,
       "power": 1,
@@ -1329,7 +1329,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/Wasp.webp?v=20"
     },
     {
-	    "id":167,
+      "id": 167,
       "name": "Wave",
       "cost": 3,
       "power": 3,
@@ -1337,7 +1337,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/wave.webp?v=20"
     },
     {
-	    "id":168,
+      "id": 168,
       "name": "White Queen",
       "cost": 4,
       "power": 6,
@@ -1345,7 +1345,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/white-queen.webp?v=20"
     },
     {
-	    "id":169,
+      "id": 169,
       "name": "White Tiger",
       "cost": 5,
       "power": 1,
@@ -1353,7 +1353,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/white-tiger.webp?v=20"
     },
     {
-	    "id":170,
+      "id": 170,
       "name": "Wolfsbane",
       "cost": 3,
       "power": 1,
@@ -1361,7 +1361,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/wolfsbane.webp?v=20"
     },
     {
-	    "id":171,
+      "id": 171,
       "name": "Wolverine",
       "cost": 2,
       "power": 3,
@@ -1369,7 +1369,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/wolverine.webp?v=20"
     },
     {
-	    "id":172,
+      "id": 172,
       "name": "Wong",
       "cost": 4,
       "power": 2,
@@ -1377,7 +1377,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/wong.webp?v=20"
     },
     {
-	    "id":173,
+      "id": 173,
       "name": "Yellowjacket",
       "cost": 0,
       "power": 2,
@@ -1385,7 +1385,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/yellowjacket.webp?v=20"
     },
     {
-	    "id":174,
+      "id": 174,
       "name": "Yondu",
       "cost": 1,
       "power": 2,
@@ -1393,7 +1393,7 @@
       "art": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/yondu.webp?v=20"
     },
     {
-	    "id":175,
+      "id": 175,
       "name": "Zero",
       "cost": 1,
       "power": 3,
