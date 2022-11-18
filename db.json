@@ -534,697 +534,683 @@
             "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ironheart.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Jane Foster The Mighty Thor",
+            "cost":"5",
+            "power":"8",
+            "effect":"On Reveal: Draw all cards that Cost 0 from your deck.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/jane-foster-mighty-thor.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Jessica Jones",
+            "cost":"4",
+            "power":"4",
+            "effect":"On Reveal: If you don't play a card here next turn +4 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/jessica-jones.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Jubilee",
+            "cost":"4",
+            "power":"1",
+            "effect":"On Reveal: Play a card from your deck at this location.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/jubilee.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Juggernaut",
+            "cost":"3",
+            "power":"3",
+            "effect":"On Reveal: If your opponent played cards here this turn, move them randomly.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/juggernaut.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Ka-Zar",
+            "cost":"4",
+            "power":"4",
+            "effect":"Ongoing: Your 1-Cost cards have +1 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ka-zar.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Killmonger",
+            "cost":"3",
+            "power":"3",
+            "effect":"On Reveal: Destroy ALL 1-Cost cards.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/killmonger.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Kingpin",
+            "cost":"3",
+            "power":"4",
+            "effect":"When a card moves here on turn 6, destroy it.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/kingpin.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Klaw",
+            "cost":"5",
+            "power":"4",
+            "effect":"Ongoing: The location to the right has +6 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/klaw.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Korg",
+            "cost":"1",
+            "power":"2",
+            "effect":"On Reveal: Shuffle a Rock into your opponent's deck.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/korg.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Kraven",
+            "cost":"2",
+            "power":"2",
+            "effect":"When a card moves here, this gets +2 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/kraven.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Lady Sif",
+            "cost":"3",
+            "power":"4",
+            "effect":"On Reveal: Discard the highest-cost card from your hand.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/lady-sif.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Leader",
+            "cost":"6",
+            "power":"4",
+            "effect":"On Reveal: Copy all cards your opponent played this turn, but on your side.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/leader.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Leech",
+            "cost":"5",
+            "power":"3",
+            "effect":"On Reveal: Remove the abilities from all cards in your opponent's hand.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/leech.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Lizard",
+            "cost":"2",
+            "power":"5",
+            "effect":"Ongoing: -3 Power if your opponent has 4 cards here.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/lizard.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Lockjaw",
+            "cost":"3",
+            "power":"2",
+            "effect":"When you play a card here, swap it with a card in your deck.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/lockjaw.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Magik",
+            "cost":"5",
+            "power":"3",
+            "effect":"You can't play this on turn 6. On Reveal: Change this location to 'Limbo'.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/magik.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Mantis",
+            "cost":"1",
+            "power":"2",
+            "effect":"On Reveal: If your opponent played a card here this turn, draw a card from their deck.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mantis.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Maximus",
+            "cost":"3",
+            "power":"7",
+            "effect":"On Reveal: Your opponent draws 2 cards.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/maximus.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Medusa",
+            "cost":"2",
+            "power":"2",
+            "effect":"On Reveal: If this is at the middle location, +2 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/medusa.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Miles Morales: Spider-Man",
+            "cost":"4",
+            "power":"5",
+            "effect":"If a card moved last turn, this costs 1.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/miles-morales.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Mister Fantastic",
+            "cost":"3",
+            "power":"2",
+            "effect":"Ongoing: Adjacent locations have +2 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mister-fantastic.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Mister Negative",
+            "cost":"4",
+            "power":"-1",
+            "effect":"On Reveal: Swap the Power and Cost of all cards in your deck.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mister-negative.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Mister Sinister",
+            "cost":"2",
+            "power":"2",
+            "effect":"On Reveal: Swap the Power and Cost of all cards in your deck.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mister-sinister.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Misty Knight",
+            "cost":"1",
+            "power":"2",
+            "effect":"none",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/misty-knight.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Mojo",
+            "cost":"2",
+            "power":"2",
+            "effect":"Ongoing: If both players have 4 cards at this location, +6 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mojo.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Moon Girl",
+            "cost":"4",
+            "power":"4",
+            "effect":"On Reveal: Duplicate your hand.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/moon-girl.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Moon Knight",
+            "cost":"3",
+            "power":"3",
+            "effect":"On Reveal: Discard a card from each player's hand.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/moon-knight.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Morbius",
+            "cost":"2",
+            "power":"0",
+            "effect":"Ongoing: +2 Power for each time you discarded a card this game.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/morbius.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Morph",
+            "cost":"3",
+            "power":"0",
+            "effect":"On Reveal: Become a copy of a random card in your opponent's hand.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/morph.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Multiple Man",
+            "cost":"2",
+            "power":"3",
+            "effect":"When this moves, add a copy to the old location.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/multiple-man.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Mysterio",
+            "cost":"2",
+            "power":"5",
+            "effect":"As you play this, play Illusions to other locations. Disguise this as an Illusion until the game ends.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mysterio.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Mystique",
+            "cost":"3",
+            "power":"0",
+            "effect":"On Reveal: If the last card you played has an Ongoing ability, this card gains it.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/mystique.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Nakia",
+            "cost":"3",
+            "power":"1",
+            "effect":"On Reveal: Give the leftmost cards in your hand +2 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/nakia.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Namor",
+            "cost":"4",
+            "power":"5",
+            "effect":"Ongoing: +5 Power if this is your only card here.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/namor.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Nick Fury",
+            "cost":"5",
+            "power":"7",
+            "effect":"On Reveal: Add 3 random 6-Cost cards to your hand.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/nick-fury.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Nightcrawler",
+            "cost":"1",
+            "power":"2",
+            "effect":"You can move this once.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/nightcrawler.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Nova",
+            "cost":"1",
+            "power":"2",
+            "effect":"When this is destroyed, give your cards +1 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/nova.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Odin",
+            "cost":"6",
+            "power":"8",
+            "effect":"On Reveal: Activate the On Reveal abilities of your other cards at this location.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/odin.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Okoye",
+            "cost":"2",
+            "power":"2",
+            "effect":"On Reveal: Give every card in your deck +1 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/okoye.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Omega Red",
+            "cost":"4",
+            "power":"5",
+            "effect":"Ongoing: If you're ahead by 10 Power here, +4 Power to other locations.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/omega-red.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Onslaught",
+            "cost":"6",
+            "power":"7",
+            "effect":"Ongoing: Double your other Ongoing effects at this location.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/onslaught.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Patriot",
+            "cost":"3",
+            "power":"1",
+            "effect":"Ongoing: Your cards with no abilities have +2 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/patriot.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Polaris",
+            "cost":"3",
+            "power":"5",
+            "effect":"On Reveal: Move an opposing 1 or 2-Cost card to this location.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/polaris.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Professor X",
+            "cost":"5",
+            "power":"3",
+            "effect":"Ongoing: Lock down this location. (Cards can't be added, removed, etc.)",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/professor-x.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Psylocke",
+            "cost":"2",
+            "power":"1",
+            "effect":"On Reveal: Next turn, you get +1 Energy.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/psylocke.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Punisher",
+            "cost":"3",
+            "power":"2",
+            "effect":"Ongoing: +1 Power for each opposing card at this location.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/punisher.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Quake",
+            "cost":"2",
+            "power":"3",
+            "effect":"On Reveal: If this is at the middle location, swap the positions of each location.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/quake.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Quicksilver",
+            "cost":"1",
+            "power":"2",
+            "effect":"Starts in your opening hand.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/quicksilver.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Quinjet",
+            "cost":"1",
+            "power":"2",
+            "effect":"Ongoing: Cards that didn't start in your deck cost 1 less.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/quinjet.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Red Skull",
+            "cost":"5",
+            "power":"15",
+            "effect":"Ongoing: Enemy cards at this location have +2 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/red-skull.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Rescue",
+            "cost":"4",
+            "power":"4",
+            "effect":"On Reveal: If you play a card here next turn, +5 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/rescue.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Rhino",
+            "cost":"3",
+            "power":"3",
+            "effect":"On Reveal: Ruin this location. (Remove its ability)",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/rhino.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Rocket Raccoon",
+            "cost":"1",
+            "power":"2",
+            "effect":"On Reveal: If your opponent played a card here this turn, +2 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/rocket-raccoon.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Rock Slide",
+            "cost":"4",
+            "power":"6",
+            "effect":"On Reveal: Shuffle 2 Rocks into your opponent's deck.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/rockslide.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Rogue",
+            "cost":"3",
+            "power":"1",
+            "effect":"On Reveal: Steal an Ongoing ability from a random enemy card at this location.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/rogue.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Ronan The Accuser",
+            "cost":"5",
+            "power":"3",
+            "effect":"Ongoing: +2 Power for each card in your opponent's hand.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ronan-the-accuser.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Sabretooth",
+            "cost":"3",
+            "power":"4",
+            "effect":"When this is destroyed, return it to your hand. It costs 0.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/sabretooth.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Sandman",
+            "cost":"4",
+            "power":"1",
+            "effect":"Ongoing: Players can only play 1 card a turn.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/sandman.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Scarlet Witch",
+            "cost":"2",
+            "power":"3",
+            "effect":"On Reveal: Replace this location with a random new one.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/scarlet-witch.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Scorpion",
+            "cost":"2",
+            "power":"2",
+            "effect":"On Reveal: Afflict cards in you opponent's hand with -1 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/scorpion.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Sentinel",
+            "cost":"2",
+            "power":"3",
+            "effect":"On Reveal: Add another Sentinel to your hand.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/sentinel.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Sera",
+            "cost":"5",
+            "power":"5",
+            "effect":"Ongoing: Cards in your hand Cost 1 less. (minimum 1)",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/sera.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Shang-Chi",
+            "cost":"4",
+            "power":"3",
+            "effect":"On Reveal: Destroy all enemy cards at this location that have 9 or more Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/shang-chi.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Shocker",
+            "cost":"2",
+            "power":"3",
+            "effect":"none",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/shocker.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Spider-Man",
+            "cost":"4",
+            "power":"3",
+            "effect":"On Reveal: Your opponent can't play cards at this location next turn.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/spider-man.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Spider-Woman",
+            "cost":"5",
+            "power":"7",
+            "effect":"On Reveal: Afflict all enemy cards here with -1 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/spider-woman.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Squirrel Girl",
+            "cost":"1",
+            "power":"1",
+            "effect":"On Reveal: Add a 1-Power Squirrel to each other location.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/squirrel-girl.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Star-Lord",
+            "cost":"2",
+            "power":"2",
+            "effect":"On Reveal: If your opponent played a card here this turn, +3 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/star-lord.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"storm",
+            "cost":"3",
+            "power":"2",
+            "effect":"On Reveal: Flood this location. Next turn is the last turn cards can be played here.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/storm.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Strong Guy",
+            "cost":"4",
+            "power":"4",
+            "effect":"Ongoing: If your hand is empty, +6 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/strong-guy.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Sunspot",
+            "cost":"1",
+            "power":"1",
+            "effect":"At the end of each turn, gain +1 Power for each unspent Energy.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/sunspot.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Swarm",
+            "cost":"2",
+            "power":"3",
+            "effect":"When this is discarded from your hand, add two copies that Cost 0 to your hand.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/swarm.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Sword Master",
+            "cost":"3",
+            "power":"6",
+            "effect":"On Reveal: Discard a card from your hand.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/sword-master.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Taskmaster",
+            "cost":"5",
+            "power":"0",
+            "effect":"On Reveal: Set this card's Power equal to the Power of the last card you played.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/taskmaster.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"The Collector",
+            "cost":"2",
+            "power":"1",
+            "effect":"When a card enters your hand from anywher (except your deck), +1 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/the-collector.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"The Hood",
+            "cost":"1",
+            "power":"-2",
+            "effect":"On Reveal: Add a Demon to your hand.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/the-hood.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"The Infinaut",
+            "cost":"6",
+            "power":"20",
+            "effect":"If you played a card last turn, you can't play this.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/the-infinaut.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"The Thing",
+            "cost":"4",
+            "power":"6",
+            "effect":"none",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/the-thing.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Thor",
+            "cost":"3",
+            "power":"4",
+            "effect":"On Reveal: Shuffle Mjolnir into your deck.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/thor.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Typhoid Mary",
+            "cost":"4",
+            "power":"10",
+            "effect":"Ongoing: Your other cards have -1 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/typhoid-mary.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Uatu The Watcher",
+            "cost":"1",
+            "power":"2",
+            "effect":"Once this is in your hand, you can see the unrevealed locations.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/uatu-the-watcher.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Ultron",
+            "cost":"6",
+            "power":"8",
+            "effect":"On Reveal: Create four 1-Power Drones at each other location.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/ultron.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Venom",
+            "cost":"3",
+            "power":"1",
+            "effect":"On Reveal: Destroy your other cards at this location. Add their Power to this card.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/venom.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Viper",
+            "cost":"2",
+            "power":"3",
+            "effect":"On Reveal: Your opponent gains control of one of your other cards at this location.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/viper.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Vision",
+            "cost":"5",
+            "power":"7",
+            "effect":"You can move this each turn.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/vision.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Vulture",
+            "cost":"3",
+            "power":"3",
+            "effect":"When this card moves, +5 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/vulture.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Warpath",
+            "cost":"4",
+            "power":"5",
+            "effect":"Ongoing: If any of your locations are empty, +4 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/warpath.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Wasp",
+            "cost":"0",
+            "power":"1",
+            "effect":"none",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/Wasp.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Wave",
+            "cost":"3",
+            "power":"3",
+            "effect":"On Reveal: Next turn, cards in both players hands cost 4.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/wave.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"White Queen",
+            "cost":"4",
+            "power":"6",
+            "effect":"On Reveal: Draw a copy of the highest Cost card in your opponent's hand.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/white-queen.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"White Tiger",
+            "cost":"5",
+            "power":"1",
+            "effect":"On Reveal: Add a 7-Power Tiger to another location.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/white-tiger.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Wolfsbane",
+            "cost":"3",
+            "power":"1",
+            "effect":"On Reveal: +2 Power for each other card you have here.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/wolfsbane.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Wolverine",
+            "cost":"2",
+            "power":"3",
+            "effect":"When this is discarded or destroyed, play it at a random location.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/wolverine.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Wong",
+            "cost":"4",
+            "power":"2",
+            "effect":"Ongoing: Your On Reveal abilities at this location happen twice.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/wong.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Yellowjacket",
+            "cost":"0",
+            "power":"2",
+            "effect":"On Reveal: Afflict your other cards at this location with -1 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/yellowjacket.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Yondu",
+            "cost":"1",
+            "power":"2",
+            "effect":"On Reveal: Remove the top card of your opponent's deck.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/yondu.webp?v=20"
         },
         {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
-        },
-        {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
-        },
-        {
-            "name":"",
-            "cost":"",
-            "power":"",
-            "effect":"",
-            "art":
+            "name":"Zero",
+            "cost":"1",
+            "power":"3",
+            "effect":"On Reveal: Remove the abilities on the next card you play.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/zero.webp?v=20"
         }
     ]
 
