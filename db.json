@@ -646,6 +646,13 @@
             "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/magik.webp?v=20"
         },
         {
+            "name":"Magneto",
+            "cost":"6",
+            "power":"12",
+            "effect":"On Reveal: Move all opposing 3 and 4-Cost cards to this location.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/magneto.webp?v=20"
+        },
+        {
             "name":"Mantis",
             "cost":"1",
             "power":"2",
@@ -982,6 +989,13 @@
             "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/shocker.webp?v=20"
         },
         {
+            "name":"Spectrum",
+            "cost":"6",
+            "power":"5",
+            "effect":"On Reveal: Give your Ongoing cards +2 Power.",
+            "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/spectrum.webp?v=20"
+        },
+        {
             "name":"Spider-Man",
             "cost":"4",
             "power":"3",
@@ -1010,7 +1024,7 @@
             "art":"https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/star-lord.webp?v=20"
         },
         {
-            "name":"storm",
+            "name":"Storm",
             "cost":"3",
             "power":"2",
             "effect":"On Reveal: Flood this location. Next turn is the last turn cards can be played here.",
