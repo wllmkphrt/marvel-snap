@@ -3,8 +3,8 @@ function appendData(data){
     data.forEach((element) => {
         let img = document.createElement("img");
         img.src = element.art;
-        img.width = "220";
-        img.height = "220";
+        img.width = "225";
+        img.height = "225";
         mainContainer.appendChild(img);
         })
 }

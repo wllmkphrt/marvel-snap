@@ -3,19 +3,17 @@ html {
     width: 100%;
     font-family: "Titillium Web", sans-serif;
   }
-  
   body {
     min-height: 100%;
     min-width: 100%;
-    background: linear-gradient(hsl(0, 12%, 97%), #000000);
+    background-color: black;
   }
   
   button {
     font-size: 7px;
   }
   
-  #main-content {
-    position: relative;
+  #title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,4 +23,20 @@ html {
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
     box-shadow: 2px 5px 5px #333;
+  }
+  #deck {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: row;
+    border: 1px solid #333;
+    background: rgba(236, 234, 239, 0.3);
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px #333;
+  }
+  #myData{
+    background-color:black;
   }
