@@ -1038,7 +1038,7 @@
       "cost": 1,
       "power": 2,
       "effect": "On Reveal: If your opponent played a card here this turn, +2 Power.",
-      "art": "src/images/rocket-raccoon.webp"
+      "art": "src/images/rocket-racoon.webp"
     },
     {
       "id": 131,
@@ -1326,7 +1326,7 @@
       "cost": 0,
       "power": 1,
       "effect": "none",
-      "art": "src/images/Wasp.webp"
+      "art": "src/images/wasp.webp"
     },
     {
       "id": 167,
