@@ -1,4 +1,14 @@
-function appendData(data){
+class Deck {
+    constructor(){
+        this.deckList = [];
+        this.cardCount = 0;
+    }
+}
+
+const deck1 = new Deck();
+
+
+function appendArt(data){
     var mainContainer = document.getElementById("myData");
     data.forEach((element) => {
         let img = document.createElement("img");
@@ -6,8 +16,13 @@ function appendData(data){
         img.width = "225";
         img.height = "225";
         mainContainer.appendChild(img);
+        img.addEventListener("click", function addCardtoDeck(){
+            deck1.deckList[deck1.cardCount] = element;
+            document.getElementById(`card`+`${(deck1.cardCount + 1)}`).src = element.art;
+            deck1.cardCount++;
         })
+    })
 }
 fetch("http://localhost:3000/cards")
     .then((resp) => resp.json())
-    .then((data) => appendData(data));
+    .then((data) => appendArt(data));
