@@ -15,11 +15,8 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid #333;
     background: linear-gradient(blue, blueviolet);
     padding: 10px 10px 10px 10px;
-    border-radius: 5px;
-    box-shadow: 2px 5px 5px #333;
   }
   #deck {
     position: sticky;
@@ -28,14 +25,11 @@ html {
     justify-content: center;
     align-items: left;
     flex-direction: row;
-    border: 1px solid #333;
     background: blueviolet;
     padding: 10px 10px 10px 10px;
-    border-radius: 5px;
     box-shadow: 2px 5px 5px #333;
   }
   #myData{
     background-color:black;
-    display: grid
-    justify-content: center;
+    justify-content: space-evenly;
   }

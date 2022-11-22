@@ -1,7 +1,7 @@
 class Deck {
     constructor(){
         this.deckList = [];
-        this.cardCount = 0;
+        this.art = [true, true, true, true, true, true, true, true, true, true, true, true];
     }
 }
 
@@ -13,14 +13,25 @@ function appendArt(data){
     data.forEach((element) => {
         let img = document.createElement("img");
         img.src = element.art;
-        img.width = "200";
-        img.height = "200";
+        img.width = "210";
+        img.height = "210";
         mainContainer.appendChild(img);
-        img.addEventListener("click", function addCardtoDeck(){
-            deck1.deckList[deck1.cardCount] = element;
-            document.getElementById(`card`+`${(deck1.cardCount + 1)}`).src = element.art;
-            if(deck1.cardCount < 12){
-                deck1.cardCount++;
+        img.addEventListener("click", function addCard(){
+            if(deck1.art.filter(currentValue => !currentValue).length < 12){
+                const indexOfDefaultArt = deck1.art.findIndex(currentValue => currentValue);
+                deck1.deckList[indexOfDefaultArt] = element;
+                deck1.art[indexOfDefaultArt] = false;
+                const currentImg = document.getElementById(`card`+`${indexOfDefaultArt + 1}`);
+                currentImg.src = element.art;
+                img.style.display ='none';
+                currentImg.addEventListener("click", function removeCard(){
+                    const index = deck1.deckList.indexOf(element);
+                    if (index > -1){
+                        deck1.art[index] = true;
+                        currentImg.src ="src/images/snap-logo.webp";
+                        img.style.display ='inline';
+                    }
+                },{once: true})
             }
         })
     })
