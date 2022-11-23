@@ -2,34 +2,38 @@ html {
     height: 100%;
     width: 100%;
     font-family: 'Arial Narrow Bold', sans-serif;
-    font-size: larger
+    margin:0px auto;
+    text-align: center;
   }
+
   body {
     min-height: 100%;
     min-width: 100%;
     background-color: black;
+    margin: 0px auto;
   }
   
   #title {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     flex-direction: column;
     background: linear-gradient(blueviolet, blue);
-    padding: 10px 10px 10px 10px;
     -webkit-text-fill-color: antiquewhite;
+    margin: 0px auto;
   }
   #deck {
     position: sticky;
-    display: flex;
-    align-items: left;
-    flex-direction: row;
+    display: inline-block;
+    text-align: center;
     top: 0;
-    justify-content: center;
-    background: blue;
+    background-color: blue;
+    padding-bottom: 10px;
+    margin: 0px auto;
   }
   #myData{
     background-color:black;
+    margin: 0px auto;
+    text-align: center;
   }
 
   .card{
@@ -40,4 +44,5 @@ html {
     width: 190px;
     padding-left: 10px;
     padding-right: 10px;
+    margin: 0px auto;
   }
