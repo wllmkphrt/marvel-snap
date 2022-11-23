@@ -17,21 +17,29 @@ html {
     display: flex;
     text-align: center;
     flex-direction: column;
-    background: linear-gradient(blueviolet, blue);
+    background: linear-gradient(blueviolet, rgb(69,22,240));
     -webkit-text-fill-color: antiquewhite;
     margin: 0px auto;
   }
+
+  #buttons {
+    display:inline-flexbox;
+    text-align: center;
+    background-color: rgb(69,22,240);
+  }
+
   #deck {
     position: sticky;
     display: inline-block;
     text-align: center;
     top: 0;
-    background-color: blue;
+    background: linear-gradient(rgb(69,22,240), blue);
     padding-bottom: 10px;
     padding-left: 52px;
     padding-right: 51px;
     margin: 0px auto;
   }
+
   #myData{
     background-color:black;
     margin: 0px auto;
