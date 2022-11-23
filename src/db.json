@@ -5,7 +5,7 @@
       "name": "Abomination",
       "cost": 5,
       "power": 9,
-      "effect": "none",
+      "effect": "No effect.",
       "art": "src/images/abomination.webp"
     },
     {
@@ -277,7 +277,7 @@
       "name": "Cyclops",
       "cost": 3,
       "power": 4,
-      "effect": "none",
+      "effect": "No effect.",
       "art": "src/images/cyclops.webp"
     },
     {
@@ -549,7 +549,7 @@
       "name": "Hulk",
       "cost": 6,
       "power": 12,
-      "effect": "none",
+      "effect": "No effect.",
       "art": "src/images/hulk.webp"
     },
     {
@@ -805,7 +805,7 @@
       "name": "Misty Knight",
       "cost": 1,
       "power": 2,
-      "effect": "none",
+      "effect": "No effect.",
       "art": "src/images/misty-knight.webp"
     },
     {
@@ -1125,7 +1125,7 @@
       "name": "Shocker",
       "cost": 2,
       "power": 3,
-      "effect": "none",
+      "effect": "No effect.",
       "art": "src/images/shocker.webp"
     },
     {
@@ -1245,7 +1245,7 @@
       "name": "The Thing",
       "cost": 4,
       "power": 6,
-      "effect": "none",
+      "effect": "No effect.",
       "art": "src/images/the-thing.webp"
     },
     {
@@ -1325,7 +1325,7 @@
       "name": "Wasp",
       "cost": 0,
       "power": 1,
-      "effect": "none",
+      "effect": "No effect.",
       "art": "src/images/wasp.webp"
     },
     {

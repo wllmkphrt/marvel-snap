@@ -15,21 +15,29 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(blue, blueviolet);
+    background: linear-gradient(blueviolet, blue);
     padding: 10px 10px 10px 10px;
+    -webkit-text-fill-color: antiquewhite;
   }
   #deck {
     position: sticky;
-    top: 0;
     display: flex;
-    justify-content: center;
     align-items: left;
     flex-direction: row;
-    background: blueviolet;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 2px 5px 5px #333;
+    top: 0;
+    justify-content: center;
+    background: blue;
   }
   #myData{
     background-color:black;
-    justify-content: space-evenly;
+  }
+
+  .card{
+    display: inline-block;
+    -webkit-text-fill-color: antiquewhite;
+    text-align: center;
+    vertical-align: top;
+    width: 190px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
