@@ -8,7 +8,16 @@ class Deck {
 const deck1 = new Deck();
 
 
-function appendArt(data){
+function createPage(data){
+    let deckContainer = document.getElementById("deck");
+    for(i = 0; i < 12; i++){
+        let snapLogo = document.createElement("img");
+        snapLogo.id = (`card`+`${i}`);
+        snapLogo.src = "src/images/snap-logo.webp";
+        snapLogo.width = "150";
+        snapLogo.height = "150";
+        deckContainer.appendChild(snapLogo);
+    }
     let mainContainer = document.getElementById("myData");
     data.forEach((element) => {
         let card = document.createElement("div");
@@ -31,7 +40,7 @@ function appendArt(data){
                 const indexOfDefaultArt = deck1.art.findIndex(currentValue => currentValue);
                 deck1.deckList[indexOfDefaultArt] = element;
                 deck1.art[indexOfDefaultArt] = false;
-                const currentImg = document.getElementById(`card`+`${indexOfDefaultArt + 1}`);
+                const currentImg = document.getElementById(`card`+`${indexOfDefaultArt}`);
                 currentImg.src = element.art;
                 card.style.display ='none';
                 currentImg.addEventListener("click", function removeCard(){
@@ -48,4 +57,4 @@ function appendArt(data){
 }
 fetch("http://localhost:3000/cards")
     .then((resp) => resp.json())
-    .then((data) => appendArt(data));
+    .then((data) => createPage(data));
