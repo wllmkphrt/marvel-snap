@@ -28,6 +28,8 @@ html {
     top: 0;
     background-color: blue;
     padding-bottom: 10px;
+    padding-left: 27px;
+    padding-right: 27px;
     margin: 0px auto;
   }
   #myData{
