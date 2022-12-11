@@ -6,7 +6,7 @@ class Deck {
 }
 
 const deck1 = new Deck();
-
+const deck2 = new Deck();
 
 function createPage(data){
     let deckContainer = document.getElementById("deck");
@@ -18,6 +18,17 @@ function createPage(data){
         snapLogo.height = "150";
         deckContainer.appendChild(snapLogo);
     }
+
+    let btn = document.getElementById('buttons');
+    const saveButton = document.createElement("button");
+    saveButton.type = "button";
+    saveButton.innerHTML = "Save Deck";
+    btn.appendChild(saveButton);
+    saveButton.addEventListener('click', () => {
+        deck2.deckList = deck1.deckList.filter((element, index) => !deck1.art[index]);
+        deck2.art = deck2.art.map((element, index) => index >= deck2.deckList.length);
+    })
+
     let mainContainer = document.getElementById("myData");
     data.forEach((element) => {
         let card = document.createElement("div");
