@@ -21,29 +21,51 @@ function createPage(data){
     }
 
     let btn = document.getElementById("buttons");
+
     const saveButtonField = document.createElement("div");
-    saveButtonField.class ="buttonIn";
+    saveButtonField.className ="buttonIn";
     saveButtonField.id = "save";
     btn.appendChild(saveButtonField);
+
     const deckTitle = document.createElement("input");
     deckTitle.type ="text";
     deckTitle.id = "enter";
     saveButtonField.appendChild(deckTitle);
+
     const saveButton = document.createElement("button");
     saveButton.type = "button";
     saveButton.innerHTML = "Save Deck";
     saveButtonField.appendChild(saveButton);
+
     saveButton.addEventListener('click', () => {
         deck2.name = document.querySelector('#enter').value;
         document.querySelector('#enter').value = "";
         deck2.deckList = deck1.deckList.filter((element, index) => !deck1.art[index]);
         deck2.art = deck2.art.map((element, index) => index >= deck2.deckList.length);
+
+        const deckOption = document.createElement("a");
+        deckOption.href = "#";
+        deckOption.innerHTML = deck2.name;
+        loadContent.appendChild(deckOption);
     })
+
+    const loadButtonField = document.createElement("div");
+    loadButtonField.className = "dropdown";
+    loadButtonField.id = "load";
+    btn.appendChild(loadButtonField);
+
     const loadButton = document.createElement("button");
-    loadButton.id = "load";
-    loadButton.type = "button";
+    loadButton.className = "dropbtn";
     loadButton.innerHTML = "Load Deck";
-    btn.appendChild(loadButton);
+    loadButtonField.appendChild(loadButton);
+
+    const loadContent = document.createElement("div");
+    loadContent.className = "dropdown-content";
+    loadButtonField.appendChild(loadContent);
+
+    loadButton.addEventListener('click', ()=> {
+
+    })
 
     let mainContainer = document.getElementById("myData");
     data.forEach((element) => {
