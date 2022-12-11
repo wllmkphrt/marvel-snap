@@ -28,6 +28,10 @@ function createPage(data){
         deck2.deckList = deck1.deckList.filter((element, index) => !deck1.art[index]);
         deck2.art = deck2.art.map((element, index) => index >= deck2.deckList.length);
     })
+    const loadButton = document.createElement("button");
+    loadButton.type = "button";
+    loadButton.innerHTML = "Load Deck";
+    btn.appendChild(loadButton);
 
     let mainContainer = document.getElementById("myData");
     data.forEach((element) => {

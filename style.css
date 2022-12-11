@@ -23,6 +23,8 @@ html {
   }
 
   #buttons {
+    position: sticky;
+    top: 0;
     display:inline-flexbox;
     text-align: center;
     background-color: rgb(69,22,240);
@@ -32,7 +34,7 @@ html {
     position: sticky;
     display: inline-block;
     text-align: center;
-    top: 0;
+    top: 1.35em;
     background: linear-gradient(rgb(69,22,240), blue);
     padding-bottom: 10px;
     padding-left: 52px;
