@@ -1,5 +1,6 @@
 class Deck {
     constructor(){
+        this.name = "placeholder";
         this.deckList = [];
         this.art = [true, true, true, true, true, true, true, true, true, true, true, true];
     }
@@ -19,16 +20,27 @@ function createPage(data){
         deckContainer.appendChild(snapLogo);
     }
 
-    let btn = document.getElementById('buttons');
+    let btn = document.getElementById("buttons");
+    const saveButtonField = document.createElement("div");
+    saveButtonField.class ="buttonIn";
+    saveButtonField.id = "save";
+    btn.appendChild(saveButtonField);
+    const deckTitle = document.createElement("input");
+    deckTitle.type ="text";
+    deckTitle.id = "enter";
+    saveButtonField.appendChild(deckTitle);
     const saveButton = document.createElement("button");
     saveButton.type = "button";
     saveButton.innerHTML = "Save Deck";
-    btn.appendChild(saveButton);
+    saveButtonField.appendChild(saveButton);
     saveButton.addEventListener('click', () => {
+        deck2.name = document.querySelector('#enter').value;
+        document.querySelector('#enter').value = "";
         deck2.deckList = deck1.deckList.filter((element, index) => !deck1.art[index]);
         deck2.art = deck2.art.map((element, index) => index >= deck2.deckList.length);
     })
     const loadButton = document.createElement("button");
+    loadButton.id = "load";
     loadButton.type = "button";
     loadButton.innerHTML = "Load Deck";
     btn.appendChild(loadButton);
