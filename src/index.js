@@ -5,9 +5,22 @@ class Deck {
         this.art = [true, true, true, true, true, true, true, true, true, true, true, true];
     }
 }
+const myEvent = new Event("custom:deckloaded");
 
 const deck1 = new Deck();
 const deck2 = new Deck();
+
+/*
+function loadDeck(deck){
+    document.dispatchEvent(myEvent);
+    deck1.name = deck.name;
+    deck1.deckList = deck.deckList;
+    deck1.art = deck.art;
+    for(i = 0; i <= deck.deckList.length; i++){
+        let snapLogo = document.getElementById(`card`+`${i}`);
+        snapLogo.src = deck.deckList[i].art;
+    }
+}*/
 
 function createPage(data){
     let deckContainer = document.getElementById("deck");
@@ -47,7 +60,24 @@ function createPage(data){
         deckOption.href = "#";
         deckOption.innerHTML = deck2.name;
         loadContent.appendChild(deckOption);
-    })
+        deckOption.addEventListener('click', function loadDeck(){
+            deck1.name = deck2.name;
+            deck1.deckList = deck2.deckList;
+            deck1.art = deck2.art;
+            for(i = 0; i < deck2.deckList.length; i++){
+                let card = document.getElementById(deck2.deckList[i].id);
+                card.style.display ='none';
+                let snapLogo = document.getElementById(`card`+`${i}`);
+                snapLogo.src = deck2.deckList[i].art;
+                snapLogo.addEventListener("click", function removeCard(){
+                        deck1.art[i] = true;
+                        snapLogo.src ="src/images/snap-logo.webp";
+                        card.style.display ='inline-block';
+                },{once: true})
+                console.log('deckloaded');
+            }
+        });
+    });
 
     const loadButtonField = document.createElement("div");
     loadButtonField.className = "dropdown";
@@ -62,10 +92,6 @@ function createPage(data){
     const loadContent = document.createElement("div");
     loadContent.className = "dropdown-content";
     loadButtonField.appendChild(loadContent);
-
-    loadButton.addEventListener('click', ()=> {
-
-    })
 
     let mainContainer = document.getElementById("myData");
     data.forEach((element) => {
@@ -96,11 +122,9 @@ function createPage(data){
                 card.style.display ='none';
                 currentImg.addEventListener("click", function removeCard(){
                     const index = deck1.deckList.indexOf(element);
-                    if (index > -1){
-                        deck1.art[index] = true;
-                        currentImg.src ="src/images/snap-logo.webp";
-                        card.style.display ='inline-block';
-                    }
+                    deck1.art[index] = true;
+                    currentImg.src ="src/images/snap-logo.webp";
+                    card.style.display ='inline-block';
                 },{once: true})
             }
         })

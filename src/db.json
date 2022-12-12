@@ -1400,5 +1400,8 @@
       "effect": "On Reveal: Remove the abilities on the next card you play.",
       "art": "src/images/zero.webp"
     }
+  ],
+  "decks": [
+
   ]
 }
