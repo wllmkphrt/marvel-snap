@@ -5,22 +5,42 @@ class Deck {
         this.art = [true, true, true, true, true, true, true, true, true, true, true, true];
     }
 }
-const myEvent = new Event("custom:deckloaded");
 
 const deck1 = new Deck();
 const deck2 = new Deck();
 
-/*
+function createPost(data){
+    const config = {
+        method: "POST",
+        headers: {
+            'Content-Type':'application/json'
+        },
+        body: JSON.stringify(data)
+    }
+    return fetch("http://localhost:3000/decks",config)
+    .then(function(response){
+        return response.json()
+    })
+}
+
 function loadDeck(deck){
-    document.dispatchEvent(myEvent);
     deck1.name = deck.name;
     deck1.deckList = deck.deckList;
     deck1.art = deck.art;
-    for(i = 0; i <= deck.deckList.length; i++){
+    for(i = 0; i < deck.deckList.length; i++){
+        let card = document.getElementById(deck.deckList[i].id);
+        card.style.display ='none';
         let snapLogo = document.getElementById(`card`+`${i}`);
         snapLogo.src = deck.deckList[i].art;
+        snapLogo.addEventListener("click", function removeCard(){
+            if(i < 12){
+                deck1.art[i] = true;
+            }
+            snapLogo.src ="src/images/snap-logo.webp";
+            card.style.display ='inline-block';
+        },{once: true})
     }
-}*/
+}
 
 function createPage(data){
     let deckContainer = document.getElementById("deck");
@@ -56,26 +76,16 @@ function createPage(data){
         deck2.deckList = deck1.deckList.filter((element, index) => !deck1.art[index]);
         deck2.art = deck2.art.map((element, index) => index >= deck2.deckList.length);
 
+        createPost(deck2);
+
         const deckOption = document.createElement("a");
         deckOption.href = "#";
         deckOption.innerHTML = deck2.name;
         loadContent.appendChild(deckOption);
-        deckOption.addEventListener('click', function loadDeck(){
-            deck1.name = deck2.name;
-            deck1.deckList = deck2.deckList;
-            deck1.art = deck2.art;
-            for(i = 0; i < deck2.deckList.length; i++){
-                let card = document.getElementById(deck2.deckList[i].id);
-                card.style.display ='none';
-                let snapLogo = document.getElementById(`card`+`${i}`);
-                snapLogo.src = deck2.deckList[i].art;
-                snapLogo.addEventListener("click", function removeCard(){
-                        deck1.art[i] = true;
-                        snapLogo.src ="src/images/snap-logo.webp";
-                        card.style.display ='inline-block';
-                },{once: true})
-                console.log('deckloaded');
-            }
+        deckOption.addEventListener('click', function (){
+            fetch("http://localhost:3000/decks")
+                .then((resp) => resp.json())
+                .then((decks) => loadDeck(decks.find(element => deckOption.innerHTML === element.name)));
         });
     });
 
@@ -122,9 +132,11 @@ function createPage(data){
                 card.style.display ='none';
                 currentImg.addEventListener("click", function removeCard(){
                     const index = deck1.deckList.indexOf(element);
-                    deck1.art[index] = true;
-                    currentImg.src ="src/images/snap-logo.webp";
-                    card.style.display ='inline-block';
+                    if (index > -1){
+                        deck1.art[index] = true;
+                        currentImg.src ="src/images/snap-logo.webp";
+                        card.style.display ='inline-block';
+                    }
                 },{once: true})
             }
         })
