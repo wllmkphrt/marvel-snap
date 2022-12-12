@@ -73,11 +73,13 @@ function createPage(data){
         card.id = element.id;
         card.className = "card";
         mainContainer.appendChild(card);
+
         let img = document.createElement("img");
         img.src = element.art;
         img.width = "190";
         img.height = "190";
         card.appendChild(img);
+
         let p = document.createElement("p");
         p.id = "text";
         let effect = document.createTextNode(`${element.effect}`);
