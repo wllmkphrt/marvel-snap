@@ -34,7 +34,7 @@ function loadDeck(deck){
         for(i = deck.deckList.length; i < displayDeck.deckList.length; i++){
             let card = document.getElementById(displayDeck.deckList[i].id);
             card.style.display = 'inline-block';
-            let currentImg = document.getElementById(`card`+`${displayDeck.deckList[i].id}`);
+            let currentImg = document.getElementById(`card`+`${i}`);
             currentImg.src = "src/images/snap-logo.webp";
         }
     }
