@@ -6,9 +6,11 @@ class Deck {
     }
 }
 
+//creates two deck objects for manipulation on the page
 const displayDeck = new Deck();
 const saveDeck = new Deck();
 
+//function used to post decks to db.json
 function createPost(data){
     const config = {
         method: "POST",
@@ -23,7 +25,11 @@ function createPost(data){
     })
 }
 
+// function to load a saved deck
 function loadDeck(deck){
+
+    //checks if the deck currently on display has more cards than the deck to be loaded,
+    //then resets cards/events that wouldn't be reset by the forEach method on the load deck
     if(displayDeck.deckList.length > deck.deckList.length){
         for(i = deck.deckList.length; i < displayDeck.deckList.length; i++){
             let card = document.getElementById(displayDeck.deckList[i].id);
@@ -32,9 +38,13 @@ function loadDeck(deck){
             currentImg.src = "src/images/snap-logo.webp";
         }
     }
+
+    //sets the display deck attributes equal to the load deck
     displayDeck.name = deck.name;
     displayDeck.deckList = deck.deckList;
     displayDeck.art = deck.art;
+
+    //displays loaded cards and adds event listeners to cards now displayed in deck
     deck.deckList.forEach((element) => {
             let card = document.getElementById(element.id);
             card.style.display ='none';
@@ -48,7 +58,7 @@ function loadDeck(deck){
             },{once: true})
     });
 }
-
+//populates the page elements dynamically
 function createPage(data){
     let deckContainer = document.getElementById("deck");
     for(i = 0; i < 12; i++){
@@ -77,18 +87,23 @@ function createPage(data){
     saveButton.innerHTML = "Save Deck";
     saveButtonField.appendChild(saveButton);
 
+    //adds an event to the save button which adds the deck name to dropdown menu under 
+    //load button and adds the currently displayed deck to the database
     saveButton.addEventListener('click', () => {
         saveDeck.name = document.querySelector('#enter').value;
         document.querySelector('#enter').value = "";
         saveDeck.deckList = displayDeck.deckList.filter((element, index) => !displayDeck.art[index]);
         saveDeck.art = saveDeck.art.map((element, index) => index >= saveDeck.deckList.length);
 
+        //adds the deck to the database
         createPost(saveDeck);
 
         const deckOption = document.createElement("a");
         deckOption.href = "#";
         deckOption.innerHTML = saveDeck.name;
         loadContent.appendChild(deckOption);
+
+        //event listener for dropdown menu to load deck
         deckOption.addEventListener('click', function (){
             fetch("http://localhost:3000/decks")
                 .then((resp) => resp.json())
@@ -110,6 +125,7 @@ function createPage(data){
     loadContent.className = "dropdown-content";
     loadButtonField.appendChild(loadContent);
 
+    //this populates all the cards on the page from our database
     let mainContainer = document.getElementById("myData");
     data.forEach((element) => {
         let card = document.createElement("div");
@@ -123,12 +139,16 @@ function createPage(data){
         img.height = "190";
         card.appendChild(img);
 
+        //adds the effect text under each card
         let p = document.createElement("p");
         p.id = "text";
         let effect = document.createTextNode(`${element.effect}`);
         p.appendChild(effect);
         card.appendChild(p);
 
+        //adds a click event to add cards into your deck and remove them from display below,
+        //which then adds a click event to the card image in your deck which removes the image
+        //from the deck and returns it to display below
         img.addEventListener("click", function addCard(){
             if(displayDeck.art.filter(currentValue => !currentValue).length < 12){
                 const indexOfDefaultArt = displayDeck.art.findIndex(currentValue => currentValue);
@@ -137,6 +157,8 @@ function createPage(data){
                 const currentImg = document.getElementById(`card`+`${indexOfDefaultArt}`);
                 currentImg.src = element.art;
                 card.style.display ='none';
+
+                //this is the click event for removal of cards from your deck
                 currentImg.addEventListener("click", function removeCard(){
                     const index = displayDeck.deckList.indexOf(element);
                     if (index > -1){
@@ -149,6 +171,8 @@ function createPage(data){
         })
     })
 }
+
+//fetches the card database and then runs the main function to populate the page
 fetch("http://localhost:3000/cards")
     .then((resp) => resp.json())
     .then((data) => createPage(data));
