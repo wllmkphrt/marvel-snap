@@ -1402,6 +1402,615 @@
     }
   ],
   "decks": [
-    
+    {
+      "name": "",
+      "deckList": [],
+      "art": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "id": 1
+    },
+    {
+      "name": "",
+      "deckList": [],
+      "art": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "id": 2
+    },
+    {
+      "name": "dsafdadffasdfffffff",
+      "deckList": [
+        {
+          "id": 2,
+          "name": "Adam Warlock",
+          "cost": 2,
+          "power": 0,
+          "effect": "At the end of each turn, if you are winning this location, draw a card.",
+          "art": "src/images/adam-warlock.webp"
+        },
+        {
+          "id": 3,
+          "name": "Aero",
+          "cost": 5,
+          "power": 9,
+          "effect": "On Reveal: Move all enemy cards played this turn to this location.",
+          "art": "src/images/aero.webp"
+        },
+        {
+          "id": 4,
+          "name": "Agatha Harkness",
+          "cost": 6,
+          "power": 14,
+          "effect": "Agatha starts in your hand and plays your cards for you.",
+          "art": "src/images/agatha-harkness.webp"
+        },
+        {
+          "id": 5,
+          "name": "Agent 13",
+          "cost": 1,
+          "power": 2,
+          "effect": "On Reveal: Add a random card to your hand",
+          "art": "src/images/agent-13.webp"
+        },
+        {
+          "id": 6,
+          "name": "America Chavez",
+          "cost": 6,
+          "power": 9,
+          "effect": "You always draw this card on turn 6, and not before.",
+          "art": "src/images/america-chavez.webp"
+        },
+        {
+          "id": 7,
+          "name": "Angel",
+          "cost": 1,
+          "power": 2,
+          "effect": "When one of your cards is destroyed, this flies out of your deck to replace it.",
+          "art": "src/images/angel.webp"
+        },
+        {
+          "id": 8,
+          "name": "Angela",
+          "cost": 2,
+          "power": 1,
+          "effect": "When you play a card here, +2 Power.",
+          "art": "src/images/angela.webp"
+        },
+        {
+          "id": 9,
+          "name": "Ant-Man",
+          "cost": 1,
+          "power": 1,
+          "effect": "Ongoing: If you have 3 other cards here, +3 Power.",
+          "art": "src/images/ant-man.webp"
+        },
+        {
+          "id": 10,
+          "name": "Apocalypse",
+          "cost": 6,
+          "power": 8,
+          "effect": "When you discard this from your hand, put it back with +4 Power.",
+          "art": "src/images/apocalypse.webp"
+        },
+        {
+          "id": 11,
+          "name": "Armor",
+          "cost": 2,
+          "power": 3,
+          "effect": "Ongoing: Cards at this location can't be destroyed.",
+          "art": "src/images/armor.webp"
+        },
+        {
+          "id": 12,
+          "name": "Arnim Zola",
+          "cost": 6,
+          "power": 0,
+          "effect": "On Reveal: Destroy a random friendly card here. Add copies of it to the other locations.",
+          "art": "src/images/arnim-zola.webp"
+        },
+        {
+          "id": 13,
+          "name": "Baron Mordo",
+          "cost": 2,
+          "power": 3,
+          "effect": "On Reveal: Your opponent draws a card. Set its Cost to 6.",
+          "art": "src/images/baron-mordo.webp"
+        }
+      ],
+      "art": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "id": 3
+    },
+    {
+      "name": "gljykhlkj;lj;l;gkug;",
+      "deckList": [
+        {
+          "id": 3,
+          "name": "Aero",
+          "cost": 5,
+          "power": 9,
+          "effect": "On Reveal: Move all enemy cards played this turn to this location.",
+          "art": "src/images/aero.webp"
+        },
+        {
+          "id": 4,
+          "name": "Agatha Harkness",
+          "cost": 6,
+          "power": 14,
+          "effect": "Agatha starts in your hand and plays your cards for you.",
+          "art": "src/images/agatha-harkness.webp"
+        },
+        {
+          "id": 5,
+          "name": "Agent 13",
+          "cost": 1,
+          "power": 2,
+          "effect": "On Reveal: Add a random card to your hand",
+          "art": "src/images/agent-13.webp"
+        },
+        {
+          "id": 6,
+          "name": "America Chavez",
+          "cost": 6,
+          "power": 9,
+          "effect": "You always draw this card on turn 6, and not before.",
+          "art": "src/images/america-chavez.webp"
+        },
+        {
+          "id": 7,
+          "name": "Angel",
+          "cost": 1,
+          "power": 2,
+          "effect": "When one of your cards is destroyed, this flies out of your deck to replace it.",
+          "art": "src/images/angel.webp"
+        },
+        {
+          "id": 8,
+          "name": "Angela",
+          "cost": 2,
+          "power": 1,
+          "effect": "When you play a card here, +2 Power.",
+          "art": "src/images/angela.webp"
+        },
+        {
+          "id": 9,
+          "name": "Ant-Man",
+          "cost": 1,
+          "power": 1,
+          "effect": "Ongoing: If you have 3 other cards here, +3 Power.",
+          "art": "src/images/ant-man.webp"
+        },
+        {
+          "id": 10,
+          "name": "Apocalypse",
+          "cost": 6,
+          "power": 8,
+          "effect": "When you discard this from your hand, put it back with +4 Power.",
+          "art": "src/images/apocalypse.webp"
+        },
+        {
+          "id": 11,
+          "name": "Armor",
+          "cost": 2,
+          "power": 3,
+          "effect": "Ongoing: Cards at this location can't be destroyed.",
+          "art": "src/images/armor.webp"
+        },
+        {
+          "id": 12,
+          "name": "Arnim Zola",
+          "cost": 6,
+          "power": 0,
+          "effect": "On Reveal: Destroy a random friendly card here. Add copies of it to the other locations.",
+          "art": "src/images/arnim-zola.webp"
+        },
+        {
+          "id": 13,
+          "name": "Baron Mordo",
+          "cost": 2,
+          "power": 3,
+          "effect": "On Reveal: Your opponent draws a card. Set its Cost to 6.",
+          "art": "src/images/baron-mordo.webp"
+        }
+      ],
+      "art": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "id": 4
+    },
+    {
+      "name": "fffffffffff",
+      "deckList": [
+        {
+          "id": 3,
+          "name": "Aero",
+          "cost": 5,
+          "power": 9,
+          "effect": "On Reveal: Move all enemy cards played this turn to this location.",
+          "art": "src/images/aero.webp"
+        },
+        {
+          "id": 4,
+          "name": "Agatha Harkness",
+          "cost": 6,
+          "power": 14,
+          "effect": "Agatha starts in your hand and plays your cards for you.",
+          "art": "src/images/agatha-harkness.webp"
+        },
+        {
+          "id": 5,
+          "name": "Agent 13",
+          "cost": 1,
+          "power": 2,
+          "effect": "On Reveal: Add a random card to your hand",
+          "art": "src/images/agent-13.webp"
+        },
+        {
+          "id": 6,
+          "name": "America Chavez",
+          "cost": 6,
+          "power": 9,
+          "effect": "You always draw this card on turn 6, and not before.",
+          "art": "src/images/america-chavez.webp"
+        },
+        {
+          "id": 7,
+          "name": "Angel",
+          "cost": 1,
+          "power": 2,
+          "effect": "When one of your cards is destroyed, this flies out of your deck to replace it.",
+          "art": "src/images/angel.webp"
+        },
+        {
+          "id": 8,
+          "name": "Angela",
+          "cost": 2,
+          "power": 1,
+          "effect": "When you play a card here, +2 Power.",
+          "art": "src/images/angela.webp"
+        },
+        {
+          "id": 9,
+          "name": "Ant-Man",
+          "cost": 1,
+          "power": 1,
+          "effect": "Ongoing: If you have 3 other cards here, +3 Power.",
+          "art": "src/images/ant-man.webp"
+        },
+        {
+          "id": 10,
+          "name": "Apocalypse",
+          "cost": 6,
+          "power": 8,
+          "effect": "When you discard this from your hand, put it back with +4 Power.",
+          "art": "src/images/apocalypse.webp"
+        },
+        {
+          "id": 11,
+          "name": "Armor",
+          "cost": 2,
+          "power": 3,
+          "effect": "Ongoing: Cards at this location can't be destroyed.",
+          "art": "src/images/armor.webp"
+        },
+        {
+          "id": 12,
+          "name": "Arnim Zola",
+          "cost": 6,
+          "power": 0,
+          "effect": "On Reveal: Destroy a random friendly card here. Add copies of it to the other locations.",
+          "art": "src/images/arnim-zola.webp"
+        },
+        {
+          "id": 13,
+          "name": "Baron Mordo",
+          "cost": 2,
+          "power": 3,
+          "effect": "On Reveal: Your opponent draws a card. Set its Cost to 6.",
+          "art": "src/images/baron-mordo.webp"
+        },
+        {
+          "id": 14,
+          "name": "Beast",
+          "cost": 2,
+          "power": 2,
+          "effect": "On Reveal: Return your other cards at this location to your hand. They cost 1 less.",
+          "art": "src/images/beast.webp"
+        }
+      ],
+      "art": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "id": 5
+    },
+    {
+      "name": "eeeeeeeeeee",
+      "deckList": [
+        {
+          "id": 3,
+          "name": "Aero",
+          "cost": 5,
+          "power": 9,
+          "effect": "On Reveal: Move all enemy cards played this turn to this location.",
+          "art": "src/images/aero.webp"
+        },
+        {
+          "id": 4,
+          "name": "Agatha Harkness",
+          "cost": 6,
+          "power": 14,
+          "effect": "Agatha starts in your hand and plays your cards for you.",
+          "art": "src/images/agatha-harkness.webp"
+        },
+        {
+          "id": 5,
+          "name": "Agent 13",
+          "cost": 1,
+          "power": 2,
+          "effect": "On Reveal: Add a random card to your hand",
+          "art": "src/images/agent-13.webp"
+        },
+        {
+          "id": 6,
+          "name": "America Chavez",
+          "cost": 6,
+          "power": 9,
+          "effect": "You always draw this card on turn 6, and not before.",
+          "art": "src/images/america-chavez.webp"
+        },
+        {
+          "id": 7,
+          "name": "Angel",
+          "cost": 1,
+          "power": 2,
+          "effect": "When one of your cards is destroyed, this flies out of your deck to replace it.",
+          "art": "src/images/angel.webp"
+        },
+        {
+          "id": 8,
+          "name": "Angela",
+          "cost": 2,
+          "power": 1,
+          "effect": "When you play a card here, +2 Power.",
+          "art": "src/images/angela.webp"
+        },
+        {
+          "id": 9,
+          "name": "Ant-Man",
+          "cost": 1,
+          "power": 1,
+          "effect": "Ongoing: If you have 3 other cards here, +3 Power.",
+          "art": "src/images/ant-man.webp"
+        },
+        {
+          "id": 10,
+          "name": "Apocalypse",
+          "cost": 6,
+          "power": 8,
+          "effect": "When you discard this from your hand, put it back with +4 Power.",
+          "art": "src/images/apocalypse.webp"
+        },
+        {
+          "id": 11,
+          "name": "Armor",
+          "cost": 2,
+          "power": 3,
+          "effect": "Ongoing: Cards at this location can't be destroyed.",
+          "art": "src/images/armor.webp"
+        },
+        {
+          "id": 12,
+          "name": "Arnim Zola",
+          "cost": 6,
+          "power": 0,
+          "effect": "On Reveal: Destroy a random friendly card here. Add copies of it to the other locations.",
+          "art": "src/images/arnim-zola.webp"
+        },
+        {
+          "id": 13,
+          "name": "Baron Mordo",
+          "cost": 2,
+          "power": 3,
+          "effect": "On Reveal: Your opponent draws a card. Set its Cost to 6.",
+          "art": "src/images/baron-mordo.webp"
+        },
+        {
+          "id": 14,
+          "name": "Beast",
+          "cost": 2,
+          "power": 2,
+          "effect": "On Reveal: Return your other cards at this location to your hand. They cost 1 less.",
+          "art": "src/images/beast.webp"
+        }
+      ],
+      "art": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "id": 6
+    },
+    {
+      "name": "kdjlsaj;ofdsja'",
+      "deckList": [
+        {
+          "id": 3,
+          "name": "Aero",
+          "cost": 5,
+          "power": 9,
+          "effect": "On Reveal: Move all enemy cards played this turn to this location.",
+          "art": "src/images/aero.webp"
+        },
+        {
+          "id": 4,
+          "name": "Agatha Harkness",
+          "cost": 6,
+          "power": 14,
+          "effect": "Agatha starts in your hand and plays your cards for you.",
+          "art": "src/images/agatha-harkness.webp"
+        },
+        {
+          "id": 5,
+          "name": "Agent 13",
+          "cost": 1,
+          "power": 2,
+          "effect": "On Reveal: Add a random card to your hand",
+          "art": "src/images/agent-13.webp"
+        },
+        {
+          "id": 6,
+          "name": "America Chavez",
+          "cost": 6,
+          "power": 9,
+          "effect": "You always draw this card on turn 6, and not before.",
+          "art": "src/images/america-chavez.webp"
+        },
+        {
+          "id": 7,
+          "name": "Angel",
+          "cost": 1,
+          "power": 2,
+          "effect": "When one of your cards is destroyed, this flies out of your deck to replace it.",
+          "art": "src/images/angel.webp"
+        },
+        {
+          "id": 8,
+          "name": "Angela",
+          "cost": 2,
+          "power": 1,
+          "effect": "When you play a card here, +2 Power.",
+          "art": "src/images/angela.webp"
+        },
+        {
+          "id": 9,
+          "name": "Ant-Man",
+          "cost": 1,
+          "power": 1,
+          "effect": "Ongoing: If you have 3 other cards here, +3 Power.",
+          "art": "src/images/ant-man.webp"
+        },
+        {
+          "id": 10,
+          "name": "Apocalypse",
+          "cost": 6,
+          "power": 8,
+          "effect": "When you discard this from your hand, put it back with +4 Power.",
+          "art": "src/images/apocalypse.webp"
+        },
+        {
+          "id": 11,
+          "name": "Armor",
+          "cost": 2,
+          "power": 3,
+          "effect": "Ongoing: Cards at this location can't be destroyed.",
+          "art": "src/images/armor.webp"
+        },
+        {
+          "id": 12,
+          "name": "Arnim Zola",
+          "cost": 6,
+          "power": 0,
+          "effect": "On Reveal: Destroy a random friendly card here. Add copies of it to the other locations.",
+          "art": "src/images/arnim-zola.webp"
+        },
+        {
+          "id": 13,
+          "name": "Baron Mordo",
+          "cost": 2,
+          "power": 3,
+          "effect": "On Reveal: Your opponent draws a card. Set its Cost to 6.",
+          "art": "src/images/baron-mordo.webp"
+        },
+        {
+          "id": 14,
+          "name": "Beast",
+          "cost": 2,
+          "power": 2,
+          "effect": "On Reveal: Return your other cards at this location to your hand. They cost 1 less.",
+          "art": "src/images/beast.webp"
+        }
+      ],
+      "art": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "id": 7
+    }
   ]
 }

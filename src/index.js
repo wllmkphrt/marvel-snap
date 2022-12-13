@@ -89,27 +89,33 @@ function createPage(data){
 
     //adds an event to the save button which adds the deck name to dropdown menu under 
     //load button and adds the currently displayed deck to the database
-    saveButton.addEventListener('click', () => {
+    function save () {
         saveDeck.name = document.querySelector('#enter').value;
         document.querySelector('#enter').value = "";
         saveDeck.deckList = displayDeck.deckList.filter((element, index) => !displayDeck.art[index]);
         saveDeck.art = saveDeck.art.map((element, index) => index >= saveDeck.deckList.length);
-
+    
         //adds the deck to the database
         createPost(saveDeck);
-
+    
         const deckOption = document.createElement("a");
         deckOption.href = "#";
         deckOption.innerHTML = saveDeck.name;
         loadContent.appendChild(deckOption);
-
+    
         //event listener for dropdown menu to load deck
         deckOption.addEventListener('click', function (){
             fetch("http://localhost:3000/decks")
                 .then((resp) => resp.json())
                 .then((decks) => loadDeck(decks.find(element => deckOption.innerHTML === element.name)));
         });
+    }
+
+    //adds event listeners which call save function
+    document.addEventListener('keyup', (event) => {
+        if(event.key === "Enter") {save()};
     });
+    saveButton.addEventListener('click', save);
 
     const loadButtonField = document.createElement("div");
     loadButtonField.className = "dropdown";
@@ -159,6 +165,7 @@ function createPage(data){
                 card.style.display ='none';
 
                 //this is the click event for removal of cards from your deck
+                currentImg.addEventListener("mouseover", myScript);
                 currentImg.addEventListener("click", function removeCard(){
                     const index = displayDeck.deckList.indexOf(element);
                     if (index > -1){
