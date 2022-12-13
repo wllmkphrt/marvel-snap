@@ -6,8 +6,8 @@ class Deck {
     }
 }
 
-const deck1 = new Deck();
-const deck2 = new Deck();
+const displayDeck = new Deck();
+const saveDeck = new Deck();
 
 function createPost(data){
     const config = {
@@ -24,22 +24,29 @@ function createPost(data){
 }
 
 function loadDeck(deck){
-    deck1.name = deck.name;
-    deck1.deckList = deck.deckList;
-    deck1.art = deck.art;
-    for(i = 0; i < deck.deckList.length; i++){
-        let card = document.getElementById(deck.deckList[i].id);
-        card.style.display ='none';
-        let snapLogo = document.getElementById(`card`+`${i}`);
-        snapLogo.src = deck.deckList[i].art;
-        snapLogo.addEventListener("click", function removeCard(){
-            if(i < 12){
-                deck1.art[i] = true;
-            }
-            snapLogo.src ="src/images/snap-logo.webp";
-            card.style.display ='inline-block';
-        },{once: true})
+    if(displayDeck.deckList.length > deck.deckList.length){
+        for(i = deck.deckList.length; i < displayDeck.deckList.length; i++){
+            let card = document.getElementById(displayDeck.deckList[i].id);
+            card.style.display = 'inline-block';
+            let currentImg = document.getElementById(`card`+`${displayDeck.deckList[i].id}`);
+            currentImg.src = "src/images/snap-logo.webp";
+        }
     }
+    displayDeck.name = deck.name;
+    displayDeck.deckList = deck.deckList;
+    displayDeck.art = deck.art;
+    deck.deckList.forEach((element) => {
+            let card = document.getElementById(element.id);
+            card.style.display ='none';
+            let currentImg = document.getElementById(`card`+`${deck.deckList.indexOf(element)}`);
+            currentImg.src = element.art;
+            currentImg.addEventListener("click", function removeCard(){
+                const index = displayDeck.deckList.indexOf(element);
+                displayDeck.art[index] = true;
+                currentImg.src ="src/images/snap-logo.webp";
+                card.style.display ='inline-block';
+            },{once: true})
+    });
 }
 
 function createPage(data){
@@ -71,16 +78,16 @@ function createPage(data){
     saveButtonField.appendChild(saveButton);
 
     saveButton.addEventListener('click', () => {
-        deck2.name = document.querySelector('#enter').value;
+        saveDeck.name = document.querySelector('#enter').value;
         document.querySelector('#enter').value = "";
-        deck2.deckList = deck1.deckList.filter((element, index) => !deck1.art[index]);
-        deck2.art = deck2.art.map((element, index) => index >= deck2.deckList.length);
+        saveDeck.deckList = displayDeck.deckList.filter((element, index) => !displayDeck.art[index]);
+        saveDeck.art = saveDeck.art.map((element, index) => index >= saveDeck.deckList.length);
 
-        createPost(deck2);
+        createPost(saveDeck);
 
         const deckOption = document.createElement("a");
         deckOption.href = "#";
-        deckOption.innerHTML = deck2.name;
+        deckOption.innerHTML = saveDeck.name;
         loadContent.appendChild(deckOption);
         deckOption.addEventListener('click', function (){
             fetch("http://localhost:3000/decks")
@@ -123,17 +130,17 @@ function createPage(data){
         card.appendChild(p);
 
         img.addEventListener("click", function addCard(){
-            if(deck1.art.filter(currentValue => !currentValue).length < 12){
-                const indexOfDefaultArt = deck1.art.findIndex(currentValue => currentValue);
-                deck1.deckList[indexOfDefaultArt] = element;
-                deck1.art[indexOfDefaultArt] = false;
+            if(displayDeck.art.filter(currentValue => !currentValue).length < 12){
+                const indexOfDefaultArt = displayDeck.art.findIndex(currentValue => currentValue);
+                displayDeck.deckList[indexOfDefaultArt] = element;
+                displayDeck.art[indexOfDefaultArt] = false;
                 const currentImg = document.getElementById(`card`+`${indexOfDefaultArt}`);
                 currentImg.src = element.art;
                 card.style.display ='none';
                 currentImg.addEventListener("click", function removeCard(){
-                    const index = deck1.deckList.indexOf(element);
+                    const index = displayDeck.deckList.indexOf(element);
                     if (index > -1){
-                        deck1.art[index] = true;
+                        displayDeck.art[index] = true;
                         currentImg.src ="src/images/snap-logo.webp";
                         card.style.display ='inline-block';
                     }
