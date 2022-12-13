@@ -164,9 +164,29 @@ function createPage(data){
                 currentImg.src = element.art;
                 card.style.display ='none';
 
+                //mouseover and mouseout events to change image size of cards in deck
+                currentImg.addEventListener("mouseover", function bigImg(){
+                    currentImg.style.height = "165px";
+                    currentImg.style.width = "165px";
+                });
+                currentImg.addEventListener("mouseout", function smallImg(){
+                    currentImg.style.height = "150px";
+                    currentImg.style.width = "150px";
+                });
+
                 //this is the click event for removal of cards from your deck
-                currentImg.addEventListener("mouseover", myScript);
                 currentImg.addEventListener("click", function removeCard(){
+
+                    //removes the resizing event listeners
+                    currentImg.removeEventListener("mouseover", function bigImg(){
+                        currentImg.style.height = "165px";
+                        currentImg.style.width = "165px";
+                    });
+                    currentImg.removeEventListener("mouseout", function smallImg(){
+                        currentImg.style.height = "150px";
+                        currentImg.style.width = "150px";
+                    });
+                    
                     const index = displayDeck.deckList.indexOf(element);
                     if (index > -1){
                         displayDeck.art[index] = true;
