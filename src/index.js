@@ -28,15 +28,12 @@ function createPost(data){
 // function to load a saved deck
 function loadDeck(deck){
 
-    //checks if the deck currently on display has more cards than the deck to be loaded,
-    //then resets cards/events that wouldn't be reset by the forEach method on the load deck
-    if(displayDeck.deckList.length > deck.deckList.length){
-        for(i = deck.deckList.length; i < displayDeck.deckList.length; i++){
-            let card = document.getElementById(displayDeck.deckList[i].id);
-            card.style.display = 'inline-block';
-            let currentImg = document.getElementById(`card`+`${i}`);
-            currentImg.src = "src/images/snap-logo.webp";
-        }
+    //resets cards/events before they are replaced by loaded cards/events
+    for(i = 0; i < displayDeck.deckList.length; i++){
+        let card = document.getElementById(displayDeck.deckList[i].id);
+        card.style.display = 'inline-block';
+        let currentImg = document.getElementById(`card`+`${i}`);
+        currentImg.src = "src/images/snap-logo.webp";
     }
 
     //sets the display deck attributes equal to the load deck
