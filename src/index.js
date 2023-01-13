@@ -34,6 +34,7 @@ function loadDeck(deck){
         card.style.display = 'inline-block';
         let currentImg = document.getElementById(`card`+`${i}`);
         currentImg.src = "src/images/snap-logo.webp";
+        currentImg.title = "";
     }
 
     //sets the display deck attributes equal to the load deck
@@ -47,10 +48,12 @@ function loadDeck(deck){
             card.style.display ='none';
             let currentImg = document.getElementById(`card`+`${deck.deckList.indexOf(element)}`);
             currentImg.src = element.art;
+            currentImg.title = element.effect;
             currentImg.addEventListener("click", function removeCard(){
                 const index = displayDeck.deckList.indexOf(element);
                 displayDeck.art[index] = true;
-                currentImg.src ="src/images/snap-logo.webp";
+                currentImg.src = "src/images/snap-logo.webp";
+                currentImg.title = "";
                 card.style.display ='inline-block';
             },{once: true})
     });
@@ -169,6 +172,7 @@ function createPage(data){
                 displayDeck.art[indexOfDefaultArt] = false;
                 const currentImg = document.getElementById(`card`+`${indexOfDefaultArt}`);
                 currentImg.src = element.art;
+                currentImg.title = element.effect;
                 card.style.display ='none';
 
                 //this is the click event for removal of cards from your deck
@@ -177,6 +181,7 @@ function createPage(data){
                     if (index > -1){
                         displayDeck.art[index] = true;
                         currentImg.src ="src/images/snap-logo.webp";
+                        currentImg.title = "";
                         card.style.display ='inline-block';
                     }
                 },{once: true})
