@@ -89,11 +89,85 @@ html {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #1ae0da;}
 
+.filters {
+  color: black;
+  position: sticky;
+  text-align: center;
+}
+
+.clearButton {
+  color: black;
+  position: sticky;
+  text-decoration: none;
+}
+
+.clearButton:hover {
+  background-color: #1ae0da;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.filterButton {
+  color: black;
+  position: sticky;
+  text-decoration: none;
+}
+
+.filterButton:hover .menuContent {
+  display: block;
+}
+
+.filterButton:hover {
+  background-color: #1ae0da;
+}
+
+.menuContent {
+  display: none;
+  position: sticky;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+  background-color: #ccc;
+  text-decoration: solid;
+  border-radius: 25px;
+  border-color: black;
+  height: 100px;
+}
+
+/* Style links inside the columns */
+.column a {
+  float: none;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: left;
+}
+
+/* Add a background color on hover */
+.column a:hover {
+  background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
   #deck {
     position: sticky;
     display: inline-block;
     text-align: center;
-    top: 3em;
+    top: 4em;
     background: linear-gradient(rgb(69,22,240), blue);
     padding-bottom: 10px;
     padding-left: 52px;

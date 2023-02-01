@@ -9,6 +9,7 @@ class Deck {
 //creates two deck objects for manipulation on the page
 const displayDeck = new Deck();
 const saveDeck = new Deck();
+let filterArr = [];
 
 //function used to post decks to db.json
 function createPost(data){
@@ -58,6 +59,7 @@ function loadDeck(deck){
             },{once: true})
     });
 }
+
 //populates the page elements dynamically
 function createPage(data){
     let deckContainer = document.getElementById("deck");
@@ -86,6 +88,183 @@ function createPage(data){
     saveButtonField.className ="buttonIn";
     saveButtonField.id = "save";
     btn.appendChild(saveButtonField);
+
+    const filterField = document.createElement("div");
+    filterField.className = "filters";
+    filterField.id = "Filter By";
+    btn.appendChild(filterField);
+
+    const filterButton = document.createElement("button");
+    filterButton.className = "filterButton";
+    filterButton.innerHTML = "Filter By";
+    filterField.appendChild(filterButton);
+
+    const filterMenu = document.createElement("div");
+    filterMenu.className = "menuContent";
+    filterButton.appendChild(filterMenu);
+
+    const fields = document.createElement("div");
+    fields.className = "row";
+    filterMenu.appendChild(fields);
+
+    const power = document.createElement("div");
+    power.className = "column";
+    power.innerHTML = "Power<br >";
+    fields.appendChild(power);
+
+    //creates a temporary array out of all the cards which do not match the filter power value and then pushes
+    //their ids to an array with the ids of cards currently in your deck and hides all cards matching these ids
+    function filterPower(cards, someValue){
+        const tempArr = cards.filter(element => element.power !== someValue);
+        tempArr.forEach(element => filterArr.push(element.id));
+        filterArr.forEach(function(element) {
+            const currentCard = document.getElementById(`${element}`);
+            currentCard.style.display = "none";
+        });
+    }
+
+    function appendToPower(value) {
+        const powerValue = document.createElement("a");
+        powerValue.innerHTML = `${value}`;
+        power.appendChild(powerValue);
+    
+        //event listener for filtering by power, checks to see if there is a previous filter array and
+        //displays all elements in the array before filterPower hides elements with the new filter
+        powerValue.addEventListener('click', function (){
+            if(filterArr.length > 0) {
+                filterArr.forEach(function(element){
+                        const currentCard = document.getElementById(`${element}`);
+                        currentCard.style.display = "inline-block";
+                })
+
+                //resets the filter array
+                filterArr = [];
+
+                //adds the ids of cards currently in your deck to the filter array so they are rehidden
+                displayDeck.art.forEach(function(element, index){
+                    if(!element){filterArr.push(displayDeck.deckList[index].id)}
+                });
+            }
+            filterPower(data, value);
+        });
+    }
+
+    //array of all the unique power values of all cards in the database
+    const uniquePower = [-8, -3, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 16, 20];
+
+    const energy = document.createElement("div");
+    energy.className = "column";
+    energy.innerHTML = "Energy<br >";
+    fields.appendChild(energy);
+
+    //creates a temporary array out of all the cards which do not match the filter energy value and then pushes
+    //their ids to an array with the ids of cards currently in your deck and hides all cards matching these ids
+    function filterEnergy(cards, someValue){
+        const tempArr = cards.filter(element => element.cost !== someValue);
+        tempArr.forEach(element => filterArr.push(element.id));
+        filterArr.forEach(function(element) {
+                const currentCard = document.getElementById(`${element}`);
+                currentCard.style.display = "none";
+        });
+    }
+
+    function appendToEnergy(value) {
+        const energyValue = document.createElement("a");
+        energyValue.innerHTML = `${value}`;
+        energy.appendChild(energyValue);
+    
+        //event listener for filtering by energy, checks to see if there is a previous filter array and
+        //displays all elements in the array before filterEnergy hides elements with the new filter
+        energyValue.addEventListener('click', function (){
+            if(filterArr.length > 0) {
+                filterArr.forEach(function(element){
+                        const currentCard = document.getElementById(`${element}`);
+                        currentCard.style.display = "inline-block";
+                });
+
+                //resets the filter array
+                filterArr = [];
+
+                //adds the ids of cards currently in your deck to the filter array so they are rehidden
+                displayDeck.art.forEach(function(element, index){
+                    if(!element){filterArr.push(displayDeck.deckList[index].id)}
+                });
+            }
+            filterEnergy(data, value);
+        });
+    }
+
+    //array of all the unique energy values of all cards in the database
+    const uniqueEnergy = [0, 1, 2, 3, 4, 5, 6, 9];
+
+    const type = document.createElement("div");
+    type.className = "column";
+    type.innerHTML = "Type<br >";
+    fields.appendChild(type);
+
+    //creates a temporary array of all the cards whose effects do not contain the filter type value and then pushes
+    //their ids to an array with the ids of cards currently in your deck and hides all cards matching these ids
+    function filterType(cards, someValue){
+        const tempArr = cards.filter(element => 
+            !(element.effect.includes(someValue) || element.effect.includes(someValue.toLowerCase())));
+        tempArr.forEach(element => filterArr.push(element.id));
+        filterArr.forEach(function(element) {
+                const currentCard = document.getElementById(`${element}`);
+                currentCard.style.display = "none";
+        });
+    }
+
+    function appendToType(value) {
+        const typeValue = document.createElement("a");
+        typeValue.innerHTML = `${value}`;
+        type.appendChild(typeValue);
+    
+        //event listener for filtering by type, checks to see if there is a previous filter array and
+        //displays all elements in the array before filterType hides elements with the new filter
+        typeValue.addEventListener('click', function (){
+            if(filterArr.length > 0) {
+                filterArr.forEach(function(element){
+                        const currentCard = document.getElementById(`${element}`);
+                        currentCard.style.display = "inline-block";
+                });
+                
+                //resets the filter array
+                filterArr = [];
+
+                //adds the ids of elements currently in your deck to the filter array so they are rehidden
+                displayDeck.art.forEach(function(element, index){
+                    if(!element){filterArr.push(displayDeck.deckList[index].id)}
+                });
+            }
+            filterType(data, value);
+        });
+    }
+
+    //array of strings of the main archetypes of cards
+    const uniqueTypes = ["Ongoing", "On Reveal", "Move", "Discard", "Destroy", "No effect"];
+
+    const clearFilterButton = document.createElement("button");
+    clearFilterButton.className = "clearButton";
+    clearFilterButton.innerHTML = "Clear Filter";
+    filterField.appendChild(clearFilterButton);
+
+    clearFilterButton.addEventListener("click", function (){
+        if(filterArr.length > 0) {
+            filterArr.forEach(function(element){
+                const currentCard = document.getElementById(`${element}`);
+                currentCard.style.display = "inline-block";
+            })
+            filterArr = [];
+            displayDeck.art.forEach(function(element, index){
+                if(!element){filterArr.push(displayDeck.deckList[index].id)}
+            });
+            filterArr.forEach(function(element) {
+                const currentCard = document.getElementById(`${element}`);
+                currentCard.style.display = "none";
+            });
+        }
+    });
+    
 
     const deckTitle = document.createElement("input");
     deckTitle.type ="text";
@@ -173,21 +352,24 @@ function createPage(data){
                 const currentImg = document.getElementById(`card`+`${indexOfDefaultArt}`);
                 currentImg.src = element.art;
                 currentImg.title = element.effect;
-                card.style.display ='none';
+                card.style.display = 'none';
 
                 //this is the click event for removal of cards from your deck
                 currentImg.addEventListener("click", function removeCard(){
                     const index = displayDeck.deckList.indexOf(element);
                     if (index > -1){
                         displayDeck.art[index] = true;
-                        currentImg.src ="src/images/snap-logo.webp";
+                        currentImg.src = "src/images/snap-logo.webp";
                         currentImg.title = "";
-                        card.style.display ='inline-block';
+                        card.style.display = 'inline-block';
                     }
                 },{once: true})
             }
         })
-    })
+    });
+    uniquePower.forEach(element => appendToPower(element));
+    uniqueEnergy.forEach(element => appendToEnergy(element));
+    uniqueTypes.forEach(element => appendToType(element));
 }
 
 //fetches the card database and then runs the main function to populate the page
