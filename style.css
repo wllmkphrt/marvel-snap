@@ -126,7 +126,7 @@ html {
   background-color: #f9f9f9;
   width: 100%;
   left: 0;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
@@ -136,17 +136,17 @@ html {
   padding: 0px;
   background-color: #ccc;
   text-decoration: solid;
-  border-radius: 25px;
+  border-radius: 15px;
   border-color: black;
-  height: 100px;
+  height: 80px;
 }
 
 /* Style links inside the columns */
 .column a {
   float: none;
-  color: black;
+  color: rgb(41, 25, 182);
+  font-weight: bold;
   padding: 5px;
-  text-decoration: none;
   display: inline-block;
   text-align: left;
 }
