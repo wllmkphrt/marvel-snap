@@ -30,6 +30,7 @@ html {
     background-color: rgb(69,22,240);
     margin:0px auto;
     z-index: 1;
+    padding-bottom: 5px;
   }
 
   #save {
@@ -40,8 +41,14 @@ html {
 
   .buttonIn button:hover {background-color: #1ae0da;}
 
+  #clear {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
   #load {
     border-radius: 5px;
+    padding-bottom: 5px;
   }
 
  /* Dropdown Button */
@@ -169,6 +176,7 @@ html {
     text-align: center;
     top: 4em;
     background: linear-gradient(rgb(69,22,240), blue);
+    padding-top: 45px;
     padding-bottom: 10px;
     padding-left: 52px;
     padding-right: 51px;

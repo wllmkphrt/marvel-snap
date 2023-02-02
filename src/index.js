@@ -243,29 +243,6 @@ function createPage(data){
     //array of strings of the main archetypes of cards
     const uniqueTypes = ["Ongoing", "On Reveal", "Move", "Discard", "Destroy", "No effect"];
 
-    const clearFilterButton = document.createElement("button");
-    clearFilterButton.className = "clearButton";
-    clearFilterButton.innerHTML = "Clear Filter";
-    filterField.appendChild(clearFilterButton);
-
-    clearFilterButton.addEventListener("click", function (){
-        if(filterArr.length > 0) {
-            filterArr.forEach(function(element){
-                const currentCard = document.getElementById(`${element}`);
-                currentCard.style.display = "inline-block";
-            })
-            filterArr = [];
-            displayDeck.art.forEach(function(element, index){
-                if(!element){filterArr.push(displayDeck.deckList[index].id)}
-            });
-            filterArr.forEach(function(element) {
-                const currentCard = document.getElementById(`${element}`);
-                currentCard.style.display = "none";
-            });
-        }
-    });
-    
-
     const deckTitle = document.createElement("input");
     deckTitle.type ="text";
     deckTitle.id = "enter";
@@ -306,16 +283,57 @@ function createPage(data){
     });
     saveButton.addEventListener('click', save);
 
+    const clearField = document.createElement("div");
+    clearField.className = "clearField";
+    clearField.id = "clear";
+    saveButtonField.appendChild(clearField);
+
+    const clearDeck = document.createElement("button");
+    clearDeck.className = "clearButton";
+    clearDeck.id = "clrButton";
+    clearDeck.innerHTML = "Clear Deck";
+    clearField.appendChild(clearDeck);
+
+    //event listener for clearing current deck
+    clearDeck.addEventListener('click', function (){
+        fetch("http://localhost:3000/decks")
+            .then((resp) => resp.json())
+            .then((decks) => loadDeck(decks.find(element => 'empty deck' === element.name)));
+    });
+
+    const clearFilterButton = document.createElement("button");
+    clearFilterButton.className = "clearButton";
+    clearFilterButton.id = "clrButton";
+    clearFilterButton.innerHTML = "Clear Filter";
+    clearField.appendChild(clearFilterButton);
+
+    clearFilterButton.addEventListener("click", function (){
+        if(filterArr.length > 0) {
+            filterArr.forEach(function(element){
+                const currentCard = document.getElementById(`${element}`);
+                currentCard.style.display = "inline-block";
+            })
+            filterArr = [];
+            displayDeck.art.forEach(function(element, index){
+                if(!element){filterArr.push(displayDeck.deckList[index].id)}
+            });
+            filterArr.forEach(function(element) {
+                const currentCard = document.getElementById(`${element}`);
+                currentCard.style.display = "none";
+            });
+        }
+    });
+
     const loadButtonField = document.createElement("div");
     loadButtonField.className = "dropdown";
     loadButtonField.id = "load";
-    btn.appendChild(loadButtonField);
+    saveButtonField.appendChild(loadButtonField);
 
     const loadButton = document.createElement("button");
     loadButton.className = "dropbtn";
     loadButton.innerHTML = "Load Deck";
     loadButtonField.appendChild(loadButton);
-
+    
     const loadContent = document.createElement("div");
     loadContent.className = "dropdown-content";
     loadButtonField.appendChild(loadContent);
