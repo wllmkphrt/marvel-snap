@@ -8,3 +8,5 @@ There are no duplicate cards allowed in the game, so when you add a card to your
 card in your deck to remove it and add it back to the pool. When you are satisfied with the deck you have created, you can save it, which will POST
 your deck object to the JSON file. When you have a saved deck, you can load this deck back onto the screen via the dropdown load menu. There are
 a lot of cards, so while you are scrolling through them, your deck and the save and load buttons will stay at the top of the screen for easy access.
+You can also filter the cards by their power, energy cost, and type. This makes it easier to find cards that will fit well with the deck you are creating.
+<img width="1315" alt="Screen Shot 2023-02-03 at 12 20 42 PM" src="https://user-images.githubusercontent.com/33963737/216666797-9ba9f501-bf83-42df-a65e-faf4b1cb3169.png">
